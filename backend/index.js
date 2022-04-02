@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 // Connect mongoDB
 mongoose
-  .connect('mongodb://127.0.0.1:27017/mydatabase')
+  .connect('mongodb://127.0.0.1:27017/band_db')
   .then((x) => {
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   })
@@ -13,7 +13,7 @@ mongoose
     console.error('Error connecting to mongo', err.reason)
   })
 
-const studentAPI = require('../backend/routes/student.route')
+const recordingAPI = require('../backend/routes/recording.route')
 const app = express()
 app.use(bodyParser.json())
 app.use(
@@ -24,7 +24,7 @@ app.use(
 app.use(cors())
 
 // API
-app.use('/api', studentAPI)
+app.use('/api', recordingAPI)
 
 // Create port
 const port = process.env.PORT || 4000

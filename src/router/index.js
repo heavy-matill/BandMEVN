@@ -9,10 +9,25 @@ const routes = [
     name: 'home',
     component: () => import('../components/CreateComponent'),
   },
-  {
+  /*{
     path: '/view',
     name: 'view',
     component: () => import('../components/ListComponent'),
+  },*/
+  {
+    path: '/view',
+    name: 'view',
+    component: () => import('../components/ViewComponent'),
+  },
+  {
+    path: '/view/:id',
+    name: 'view-by-id',
+    component: () => import('../components/ViewComponent'),
+  },
+  {
+    path: '/parse',
+    name: 'parse',
+    component: () => import('../components/ParseComponent'),
   },
   {
     path: '/edit/:id',

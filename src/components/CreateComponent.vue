@@ -1,14 +1,14 @@
 <template>
   <div class="row justify-content-center">
     <div class="col-md-6">
-      <h3 class="text-center">Create Student</h3>
+      <h3 class="text-center">Create Recording</h3>
       <form @submit.prevent="handleSubmitForm">
         <div class="form-group">
           <label>Name</label>
           <input
             type="text"
             class="form-control"
-            v-model="student.name"
+            v-model="recording.name"
             required
           />
         </div>
@@ -18,7 +18,7 @@
           <input
             type="email"
             class="form-control"
-            v-model="student.email"
+            v-model="recording.email"
             required
           />
         </div>
@@ -28,7 +28,7 @@
           <input
             type="text"
             class="form-control"
-            v-model="student.phone"
+            v-model="recording.phone"
             required
           />
         </div>
@@ -47,7 +47,7 @@ import axios from "axios";
 export default {
   data() {
     return {
-      student: {
+      recording: {
         name: "",
         email: "",
         phone: "",
@@ -56,13 +56,13 @@ export default {
   },
   methods: {
     handleSubmitForm() {
-      let apiURL = "http://localhost:4000/api/create-student";
+      let apiURL = "http://localhost:4000/api/create-recording";
 
       axios
-        .post(apiURL, this.student)
+        .post(apiURL, this.recording)
         .then(() => {
           this.$router.push("/view");
-          this.student = {
+          this.recording = {
             name: "",
             email: "",
             phone: "",
