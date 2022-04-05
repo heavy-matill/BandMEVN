@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 // Connect mongoDB
 mongoose
-  .connect('mongodb://127.0.0.1:27017/band_db')
+  .connect('mongodb://0.0.0.0:27017/band_db')
   .then((x) => {
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   })
@@ -13,7 +13,7 @@ mongoose
     console.error('Error connecting to mongo', err.reason)
   })
 
-const recordingAPI = require('../backend/routes/recording.route')
+const recordingAPI = require('./routes/recording.route')
 const app = express()
 app.use(bodyParser.json())
 app.use(
