@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 // Connect mongoDB
 mongoose
-  .connect('mongodb://0.0.0.0:27017/band_db')
+  .connect('mongodb://localhost:27017/band_db')
   .then((x) => {
     console.log(`Connected to Mongo! Database name: "${x.connections[0].name}"`)
   })
