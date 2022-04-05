@@ -68,25 +68,25 @@
                 </th>
                 <th>
                     <input
-                        v-model="filters.occasion.value"
-                        list="filter-list-occasion"
-                        placeholder="Occasion"
+                        v-model="filters.type.value"
+                        list="filter-list-type"
+                        placeholder="Type"
                         class="form-control"
                         style="max-width: 6em"
                     />
-                    <datalist id="filter-list-occasion">
+                    <datalist id="filter-list-type">
                         <option
-                            v-for="occasion in new Set(
-                                Array.from(Recordings, (rec) => rec.occasion)
+                            v-for="type in new Set(
+                                Array.from(Recordings, (rec) => rec.type)
                             )"
-                            :key="occasion"
+                            :key="type"
                         >
-                            {{ occasion }}
+                            {{ type }}
                         </option>
                     </datalist>
                 </th>
                 <th></th>
-                <th>
+                <th v-if="!isMobile()">
                     <input
                         placeholder="Channels"
                         v-model="filters.instruments.value"
@@ -101,9 +101,9 @@
                 <v-th sortKey="date" defaultSort="desc"> Date </v-th>
                 <v-th sortKey="time">Time</v-th>
                 <v-th sortKey="title"> Title</v-th>
-                <th>Occasion</th>
+                <th>Type</th>
                 <th>#Ch</th>
-                <th>Channels</th>
+                <th v-if="!isMobile()">Channels</th>
                 <th>
                     <font-awesome-icon icon="fa-solid fa-right-left" />
                 </th>
@@ -115,28 +115,34 @@
                 </th>
             </thead>
             <tbody slot="body" slot-scope="{ displayData }">
-                <tr v-for="row in displayData" :key="row.id" :class="{ 'table-light' : row._id == mix_id}">
-                    <td><div>
-                        <router-link
-                            class="mx-auto d-block"
-                            :to="'/view/' + row._id"
-                            tag="button"
-                            ><font-awesome-icon
-                                v-if="row._id != mix_id"
-                                icon="fa-solid fa-play" /><font-awesome-icon
-                                v-if="row._id == mix_id"
-                                icon="fa-solid fa-volume-high"
-                        /></router-link></div>
+                <tr
+                    v-for="row in displayData"
+                    :key="row.id"
+                    :class="{ 'table-light': row._id == mix_id }"
+                >
+                    <td>
+                        <div>
+                            <router-link
+                                class="mx-auto d-block"
+                                :to="'/view/' + row._id"
+                                tag="button"
+                                ><font-awesome-icon
+                                    v-if="row._id != mix_id"
+                                    icon="fa-solid fa-play" /><font-awesome-icon
+                                    v-if="row._id == mix_id"
+                                    icon="fa-solid fa-volume-high"
+                            /></router-link>
+                        </div>
                     </td>
 
                     <td>{{ row.date }}</td>
                     <td>{{ row.time_hhmm }}</td>
                     <td>{{ row.title }}</td>
-                    <td>{{ row.occasion }}</td>
+                    <td>{{ row.type }}</td>
                     <td>
-                        {{ Object.getOwnPropertyNames(row.channels).length }}
+                        {{ Object.keys(row.channels).length }}
                     </td>
-                    <td>{{ row.instruments }}</td>
+                    <td v-if="!isMobile()">{{ row.instruments }}</td>
                     <td>
                         <router-link
                             class="mx-auto d-block"
@@ -181,16 +187,20 @@ export default {
             filters: {
                 date: { value: "", keys: ["date"] },
                 title: { value: "", keys: ["title"] },
-                occasion: { value: "", keys: ["occasion"] },
+                type: { value: "", keys: ["type"] },
                 instruments: { value: "", custom: this.instrumentsFilter },
             },
             currentPage: 1,
             totalPages: 0,
         };
     },
-    props: ['mix_id'],
-    created() {
-        let apiURL = "http://localhost:4000/api";
+    props: ["mix_id"],
+    created() {        
+        this.isMobile();
+        let apiURL = `${window.location.origin
+            .split(":")
+            .slice(0, -1)
+            .join(":")}:4000/api`;
         axios
             .get(apiURL)
             .then((res) => {
@@ -214,7 +224,10 @@ export default {
                 });
         },
         deleteRecording(id) {
-            let apiURL = `http://localhost:4000/api/delete-recording/${id}`;
+            let apiURL = `${window.location.origin
+                .split(":")
+                .slice(0, -1)
+                .join(":")}:4000/api/delete-recording/${id}`;
             let indexOfArrayItem = this.Recordings.findIndex(
                 (i) => i._id === id
             );
@@ -230,11 +243,18 @@ export default {
                     });
             }
         },
+        isMobile() {
+            if (screen.width <= 760) {
+                return true;
+            } else {
+                return false;
+            }
+        },
     },
 };
 </script>
 <style>
-thead th:not([class]){
+thead th:not([class]) {
     vertical-align: middle;
     white-space: nowrap;
 }

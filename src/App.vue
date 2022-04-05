@@ -1,7 +1,9 @@
 <template>
     <div>
-        <!-- Nav bar -->
-        <nav
+        <b-navbar
+            toggleable="lg"
+            type="light"
+            variant="info"
             class="
                 navbar navbar-dark
                 bg-primary
@@ -9,28 +11,26 @@
                 flex-nowrap flex-row
             "
         >
-            <div class="container">
-                <a class="navbar-brand float-left">Band MEVN</a>
-                <ul class="nav navbar-nav flex-row float-right">
-                    <li class="nav-item">
-                        <router-link class="nav-link pr-3" to="/"
-                            >Create Recording</router-link
-                        >
-                    </li>
-                    <li class="nav-item">
-                        <router-link class="nav-link" to="/view"
-                            >View Recordings</router-link
-                        >
-                    </li>
-                    <li class="nav-item">
-                        <router-link class="nav-link" to="/parse"
-                            >Parser</router-link
-                        >
-                    </li>
-                </ul>
-            </div>
-        </nav>
+            <b-navbar-brand href="#">Band MEVN</b-navbar-brand>
 
+            <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+            <b-collapse id="nav-collapse" is-nav>
+                <b-navbar-nav>
+                    <b-nav-item
+                        ><router-link class="nav-link" to="/view"
+                            >View Recordings</router-link
+                        ></b-nav-item
+                    >
+                    <b-nav-item
+                        ><router-link class="nav-link" to="/parse"
+                            >Parser</router-link
+                        ></b-nav-item
+                    >
+                    <b-nav-item> </b-nav-item>
+                </b-navbar-nav>
+            </b-collapse>
+        </b-navbar>
         <!-- Router view -->
         <div class="container mt-5">
             <router-view></router-view>

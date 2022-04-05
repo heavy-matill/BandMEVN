@@ -56,7 +56,7 @@ export default {
   },
   methods: {
     handleSubmitForm() {
-      let apiURL = "http://localhost:4000/api/create-recording";
+      let apiURL = window.location.origin.split(':').slice(0,-1).join(':') + ":4000/api/create-recording";
 
       axios
         .post(apiURL, this.recording)

@@ -21,7 +21,7 @@ let recordingSchema = new Schema(
       }
     },
     title: String,
-    occasion: String,
+    type: String,
     channels: {
       type: Map,
       of:

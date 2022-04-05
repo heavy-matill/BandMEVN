@@ -4,6 +4,11 @@ import router from './router'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+import { NavbarPlugin } from 'bootstrap-vue'
+Vue.use(NavbarPlugin)
+import { FormCheckboxPlugin } from 'bootstrap-vue'
+Vue.use(FormCheckboxPlugin)
+
 // Import fontawesome 
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {fas} from '@fortawesome/free-solid-svg-icons'

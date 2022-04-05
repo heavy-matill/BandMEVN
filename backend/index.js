@@ -26,6 +26,9 @@ app.use(cors())
 // API
 app.use('/api', recordingAPI)
 
+// Files
+app.use('/audio-files', express.static('audio-files'))
+
 // Create port
 const port = process.env.PORT || 4000
 const server = app.listen(port, () => {

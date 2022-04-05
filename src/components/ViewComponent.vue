@@ -7,6 +7,11 @@
             :config="config"
             ref="audiomixer"
         />
+        <b-form-checkbox v-model="online" name="online-button" switch
+            >
+            <div v-if="online">Online</div>
+            <div v-else>Local</div>
+        </b-form-checkbox>
         <list-component :mix_id="mix_id" />
     </div>
 </template>
@@ -21,6 +26,7 @@ export default {
         return {
             recording: {},
             mix_id: "",
+            online: true,
             mixer_reload: 0,
             is_loaded: false,
             newconfig: {},
@@ -38,7 +44,7 @@ export default {
     created() {
         this.mix_id = this.$route.params.id;
         if (this.mix_id) {
-            let apiURL = `http://localhost:4000/api/by-id/${this.$route.params.id}`;
+            let apiURL = `${window.location.origin.split(':').slice(0,-1).join(':')}:4000/api/by-id/${this.$route.params.id}`;
             axios.get(apiURL).then((res) => {
                 this.recording = res.data;
                 this.load_config();
@@ -48,7 +54,8 @@ export default {
     watch: {
         "$route.params.id": function () {
             this.mix_id = this.$route.params.id;
-            let apiURL = `http://localhost:4000/api/by-id/${this.$route.params.id}`;
+            
+            let apiURL = `${window.location.origin.split(':').slice(0,-1).join(':')}:4000/api/by-id/${this.$route.params.id}`;
             axios.get(apiURL).then((res) => {
                 this.recording = res.data;
                 this.load_config();
@@ -65,9 +72,15 @@ export default {
             for (const [instrument, value] of Object.entries(
                 this.recording.channels
             )) {
+                let url
+                if (this.online) {
+                    url = value.url
+                } else {
+                    url = `${window.location.origin.split(':').slice(0,-1).join(':')}:4000/audio-files/${value.file}`;
+                }
                 this.config.tracks.push({
                     title: instrument,
-                    url: value.url,
+                    url: url,
                     pan: 0,
                     gain: 0.5,
                     muted: false,

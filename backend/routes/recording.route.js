@@ -52,9 +52,9 @@ recordingRoute.route('/add-file/').post((req, res, next) => {
   console.log(req.body)
 
   let date = req.body.file.split('_')[0]
-  let hours_occasion = req.body.file.split('_')[1]
-  let hours = hours_occasion.slice(0, 6);
-  let occasion = hours_occasion.slice(6) || "Rehearsal";
+  let hours_type = req.body.file.split('_')[1]
+  let hours = hours_type.slice(0, 6);
+  let type = hours_type.slice(6) || "Rehearsal";
 
   let title = req.body.file.split('_')[2]
   let instrument = req.body.file.split('_').slice(3).join('_').split('.').slice(0, -1).join('.')
@@ -77,7 +77,7 @@ recordingRoute.route('/add-file/').post((req, res, next) => {
             }
           })
         } else {
-          RecordingModel.create({ time: time, title: title, occasion: occasion, channels: { [instrument]: { url: req.body.url, file: req.body.file } } }, (error, data) => {
+          RecordingModel.create({ time: time, title: title, type: type, channels: { [instrument]: { url: req.body.url, file: req.body.file } } }, (error, data) => {
             if (error) {
               return next(error)
             } else {
