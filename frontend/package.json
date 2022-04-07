@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve --host 0.0.0.0",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
@@ -22,7 +22,8 @@
     "vue-audio-mixer": "github:heavy-matill/vue-audio-mixer",
     "vue-property-decorator": "^8.0.0",
     "vue-router": "^3.5.3",
-    "vuejs-smart-table": "^0.0.8"
+    "vuejs-smart-table": "^0.0.8",
+    "vuetify": "^2.6.4"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

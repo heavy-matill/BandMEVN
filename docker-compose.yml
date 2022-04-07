@@ -1,0 +1,31 @@
+version: '2'
+
+services:
+  backend:
+    image: backend-band-mevn
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./backend/:/usr/src/app
+    links:
+      - mongo_db
+    environment:
+      - MONGODB_URI=mongodb://mongo_db:27017/band_db
+
+  mongo_db:
+    image: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - 'mongo_data:/data/db'
+
+  frontend:
+    image: frontend-band-mevn
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./frontend:/usr/src/app
+    environment:
+      - BACKEND_URI=http://localhost:4000/
+volumes:
+  mongo_data:

@@ -195,7 +195,7 @@ export default {
         };
     },
     props: ["mix_id"],
-    created() {        
+    created() {
         this.isMobile();
         let apiURL = `${window.location.origin
             .split(":")

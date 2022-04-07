@@ -45,6 +45,7 @@ export default {
         this.mix_id = this.$route.params.id;
         if (this.mix_id) {
             let apiURL = `${window.location.origin.split(':').slice(0,-1).join(':')}:4000/api/by-id/${this.$route.params.id}`;
+            console.log(apiURL)
             axios.get(apiURL).then((res) => {
                 this.recording = res.data;
                 this.load_config();
