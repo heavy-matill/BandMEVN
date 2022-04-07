@@ -197,7 +197,7 @@ export default {
     props: ["mix_id"],
     created() {
         this.isMobile();
-        let apiURL = `${window.location.origin
+        let apiURL = `${ process.env.BACKEND_URI || window.location.origin
             .split(":")
             .slice(0, -1)
             .join(":")}:4000/api`;
@@ -224,7 +224,7 @@ export default {
                 });
         },
         deleteRecording(id) {
-            let apiURL = `${window.location.origin
+            let apiURL = `${ process.env.BACKEND_URI || window.location.origin
                 .split(":")
                 .slice(0, -1)
                 .join(":")}:4000/api/delete-recording/${id}`;
