@@ -1,9 +1,11 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 
 // Connect mongoDB
+console.log(process.env.MONGODB_URI)
 mongoose
   .connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/band_db')
   .then((x) => {

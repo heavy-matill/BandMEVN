@@ -44,7 +44,10 @@ export default {
     created() {
         this.mix_id = this.$route.params.id;
         if (this.mix_id) {
-            let apiURL = `${window.location.origin.split(':').slice(0,-1).join(':')}:4000/api/by-id/${this.$route.params.id}`;
+            let apiURL = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin
+            .split(":")
+            .slice(0, -1)
+            .join(":")+":4000")}/api/by-id/${this.$route.params.id}`;
             console.log(apiURL)
             axios.get(apiURL).then((res) => {
                 this.recording = res.data;
@@ -56,7 +59,10 @@ export default {
         "$route.params.id": function () {
             this.mix_id = this.$route.params.id;
             
-            let apiURL = `${window.location.origin.split(':').slice(0,-1).join(':')}:4000/api/by-id/${this.$route.params.id}`;
+            let apiURL = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin
+            .split(":")
+            .slice(0, -1)
+            .join(":")+":4000")}/api/by-id/${this.$route.params.id}`;
             axios.get(apiURL).then((res) => {
                 this.recording = res.data;
                 this.load_config();
@@ -77,7 +83,10 @@ export default {
                 if (this.online) {
                     url = value.url
                 } else {
-                    url = `${window.location.origin.split(':').slice(0,-1).join(':')}:4000/audio-files/${value.file}`;
+                    url = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin
+            .split(":")
+            .slice(0, -1)
+            .join(":")+":4000")}/audio-files/${value.file}`;
                 }
                 this.config.tracks.push({
                     title: instrument,

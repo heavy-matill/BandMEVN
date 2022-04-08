@@ -2,7 +2,7 @@ version: '2'
 
 services:
   backend:
-    image: backend
+    image: heavymatill/band-mevn-backend
     ports:
       - "4000:4000"
     volumes:
@@ -20,12 +20,12 @@ services:
       - 'mongo_data:/data/db'
 
   frontend:
-    image: frontend
+    image: heavymatill/band-mevn-frontend
     ports:
       - "8080:8080"
     volumes:
       - ./frontend:/usr/src/app
     environment:
-      - BACKEND_URI=http://backend
+      - VUE_APP_BACKEND_URI=http://backend
 volumes:
   mongo_data:

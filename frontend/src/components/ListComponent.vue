@@ -197,10 +197,10 @@ export default {
     props: ["mix_id"],
     created() {
         this.isMobile();
-        let apiURL = `${ process.env.BACKEND_URI || window.location.origin
+        let apiURL = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin
             .split(":")
             .slice(0, -1)
-            .join(":")}:4000/api`;
+            .join(":")+":4000")}/api`;
         axios
             .get(apiURL)
             .then((res) => {
@@ -224,10 +224,10 @@ export default {
                 });
         },
         deleteRecording(id) {
-            let apiURL = `${ process.env.BACKEND_URI || window.location.origin
+            let apiURL = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin
                 .split(":")
                 .slice(0, -1)
-                .join(":")}:4000/api/delete-recording/${id}`;
+                .join(":")+":4000")}/api/delete-recording/${id}`;
             let indexOfArrayItem = this.Recordings.findIndex(
                 (i) => i._id === id
             );
