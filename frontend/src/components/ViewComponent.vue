@@ -1,14 +1,35 @@
 <template>
     <div>
-        <AudioMixer
-            v-if="mix_id"
-            :key="mixer_reload"
-            :is_loaded="is_loaded"
-            :config="config"
-            ref="audiomixer"
-        />
-        <b-form-checkbox v-model="online" name="online-button" switch
-            >
+        <div v-if="mix_id">
+            <AudioMixer
+                :key="mixer_reload"
+                :is_loaded="is_loaded"
+                :config="config"
+                ref="audiomixer"
+            />
+            <b-button-group>
+                <b-button>Download Mix</b-button>
+                <b-dropdown
+                    right
+                    split
+                    text="Store Settings"
+                    v-on:click="upload_mixer_config(true, true)"
+                >
+                    <b-dropdown-item
+                        v-on:click="upload_mixer_config(true, false)"
+                        >Gains only</b-dropdown-item
+                    >
+                    <b-dropdown-item
+                        v-on:click="upload_mixer_config(false, true)"
+                        >Pans only</b-dropdown-item
+                    >
+                </b-dropdown>
+                <b-dropdown right split text="Reload Settings">
+                    <b-dropdown-item>Reset</b-dropdown-item>
+                </b-dropdown>
+            </b-button-group>
+        </div>
+        <b-form-checkbox v-model="online" name="online-button" switch>
             <div v-if="online">Online</div>
             <div v-else>Local</div>
         </b-form-checkbox>
@@ -44,11 +65,12 @@ export default {
     created() {
         this.mix_id = this.$route.params.id;
         if (this.mix_id) {
-            let apiURL = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin
-            .split(":")
-            .slice(0, -1)
-            .join(":")+":4000")}/api/by-id/${this.$route.params.id}`;
-            console.log(apiURL)
+            let apiURL = `${
+                process.env.VUE_APP_BACKEND_URI ||
+                window.location.origin.split(":").slice(0, -1).join(":") +
+                    ":4000"
+            }/api/by-id/${this.$route.params.id}`;
+            console.log(apiURL);
             axios.get(apiURL).then((res) => {
                 this.recording = res.data;
                 this.load_config();
@@ -58,11 +80,12 @@ export default {
     watch: {
         "$route.params.id": function () {
             this.mix_id = this.$route.params.id;
-            
-            let apiURL = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin
-            .split(":")
-            .slice(0, -1)
-            .join(":")+":4000")}/api/by-id/${this.$route.params.id}`;
+
+            let apiURL = `${
+                process.env.VUE_APP_BACKEND_URI ||
+                window.location.origin.split(":").slice(0, -1).join(":") +
+                    ":4000"
+            }/api/by-id/${this.$route.params.id}`;
             axios.get(apiURL).then((res) => {
                 this.recording = res.data;
                 this.load_config();
@@ -76,27 +99,50 @@ export default {
             this.is_loaded = false;
             this.mixer_reload++;
             this.config.tracks = [];
-            for (const [instrument, value] of Object.entries(
-                this.recording.channels
-            )) {
-                let url
+            for (const channel of this.recording.channels) {
+                let url;
                 if (this.online) {
-                    url = value.url
+                    url = channel.url;
                 } else {
-                    url = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin
-            .split(":")
-            .slice(0, -1)
-            .join(":")+":4000")}/audio-files/${value.file}`;
+                    url = `${
+                        process.env.VUE_APP_BACKEND_URI ||
+                        window.location.origin
+                            .split(":")
+                            .slice(0, -1)
+                            .join(":") + ":4000"
+                    }/audio-files/${channel.file}`;
                 }
                 this.config.tracks.push({
-                    title: instrument,
+                    title: channel.title,
                     url: url,
-                    pan: 0,
-                    gain: 0.5,
+                    pan: channel.pan ?? 0,
+                    gain: channel.gain ?? 0.5,
                     muted: false,
                     hidden: false,
                 });
             }
+        },
+        upload_mixer_config: async function (bGains = true, bPans = true) {
+            let updates = [];
+            for (const track of this.config.tracks) {
+                let update = { title: track.title };
+                if (bGains) {
+                    update.gain = track.gain;
+                }
+                if (bPans) {
+                    update.pan = track.pan;
+                }
+                updates.push(update);
+            }
+            console.log(updates);
+            let apiURL = `${
+                process.env.VUE_APP_BACKEND_URI ||
+                window.location.origin.split(":").slice(0, -1).join(":") +
+                    ":4000"
+            }/api/update-recording/${this.mix_id}`;
+            await axios.post(apiURL, updates).catch((error) => {
+                console.log(error);
+            });
         },
     },
 };

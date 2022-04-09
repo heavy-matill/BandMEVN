@@ -31,7 +31,7 @@ export default {
             }
         },
         add_new_jukehost: async function (file, id) {
-            let apiURL = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin.split(':').slice(0,-1).join(':')+":4000")}/api/add-file`;
+            let apiURL = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin.split(':').slice(0,-1).join(':')+":4000")}/api/add-recording`;
             await axios
                 .post(apiURL, {
                     file: file,

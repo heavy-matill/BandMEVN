@@ -1,5 +1,7 @@
 const express = require('express')
+const Recording = require('../models/Recording')
 const recordingRoute = express.Router()
+var mongoose = require('mongoose');
 
 // model
 let RecordingModel = require('../models/Recording')
@@ -46,10 +48,11 @@ recordingRoute.route('/edit-recording/:id').get((req, res, next) => {
 })
 
 // Add file
-recordingRoute.route('/add-file/').post((req, res, next) => {
+recordingRoute.route('/add-recording/').post((req, res, next) => {
   req.body.url;
   req.body.file;
-  console.log(req.body)
+
+  let name = req.body.file.split('_').slice(0, 3).join('_')
 
   let date = req.body.file.split('_')[0]
   let hours_type = req.body.file.split('_')[1]
@@ -60,65 +63,66 @@ recordingRoute.route('/add-file/').post((req, res, next) => {
   let instrument = req.body.file.split('_').slice(3).join('_').split('.').slice(0, -1).join('.')
 
   let time = new Date(`${date} ${hours.slice(0, 2)}:${hours.slice(2, 4)}:${hours.slice(2, 4)}`)
-  RecordingModel.findOne(
-    { time: time },
-    (error, data) => {
-      if (error) {
-        return next(error)
-      } else {
-        if (data) {
-          data.channels.set(instrument, { url: req.body.url, file: req.body.file });
-          data.save((error, data) => {
-            if (error) {
-              return next(error)
-            } else {
-              res.json(data)
-              console.log('Recording successfully updated!')
-            }
-          })
-        } else {
-          RecordingModel.create({ time: time, title: title, type: type, channels: { [instrument]: { url: req.body.url, file: req.body.file } } }, (error, data) => {
-            if (error) {
-              return next(error)
-            } else {
-              res.json(data)
-              console.log('Recording successfully created!')
-            }
-          })
-        }
+  let query =
+    { name: name }
+  let dataToBeUpdated = { title: instrument, url: req.body.url, file: req.body.file }
+  //console.log(dataToBeUpdated)
+  var bulk = RecordingModel.collection.initializeOrderedBulkOp();
+  bulk.find(query).upsert().updateOne({ "$setOnInsert": { name: name, time: time, title: title, type: type, channels: [dataToBeUpdated] } });
+  bulk.find({ ...query, "channels.title": { "$ne": instrument } }).updateOne({
+    "$push": {
+      channels: {//dataToBeUpdated
+        "$each": [dataToBeUpdated],
+        "$sort": { title: 1 }
       }
-    })
+    }
+  });
+  bulk.find({ ...query, "channels.title": instrument }).updateOne({
+    "$set":
+    Object.fromEntries(
+      Object.entries(dataToBeUpdated).map(
+        ([k, v], i) => ["channels.$."+k, v]
+      )
+    )
+  });
+
+  bulk.execute(function (err, result) {
+    if (err)
+      console.log(err)
+    //console.log(result)
+    res.json(null)
+  });
+
 })
-// Add mix-config
-recordingRoute.route('/add-mix/').post((req, res, next) => {
-  let id = req.body.id
-  let tracks = req.body.tracks
-  RecordingModel.findOne({ _id: id },
-    (error, data) => {
-      if (error) {
-        return next(error)
-      } else {
-        if (data) {
-          for (const track of tracks) {
-            data.channels.set(track.title, { ...data.channels[track.title], gain: track.gain, pan: track.pan })
-          }
-        } else {
-          console.log(`Mix not added to invalid id: ${id}`)
-          data.save((error, data) => {
-            if (error) {
-              return next(error)
-            } else {
-              res.json(data)
-              console.log('Mix successfully added!')
-            }
-          })
-        }
-      }
-    })
+// Add update
+recordingRoute.route('/update-recording/:id').post((req, res, next) => {
+  let id = req.params.id
+  let updates = req.body
+  var bulk = RecordingModel.collection.initializeOrderedBulkOp();
+  for (const update of updates) {
+    bulk.find({ _id: 
+      mongoose.Types.ObjectId(id), "channels.title": update.title }).upsert().updateOne({
+      "$set":
+      Object.fromEntries(
+        Object.entries(update).map(
+          ([k, v], i) => ["channels.$."+k, v]
+        )
+      )
+       // { "channels.$": update }
+    });
+    console.log(update)
+    //RecordingModel.findOneAndUpdate({ _id: id, "channels.title": update.title }, { $set: { "channels.$": update } })
+  }
+  bulk.execute(function (err, result) {
+    if (err)
+      console.log(err)
+    //console.log(result)
+    res.json(null)
+  });
 })
 
 // Update
-recordingRoute.route('/update-recording/:id').put((req, res, next) => {
+/*recordingRoute.route('/update-recording/:id').put((req, res, next) => {
   RecordingModel.findByIdAndUpdate(
     req.params.id,
     {
@@ -133,7 +137,7 @@ recordingRoute.route('/update-recording/:id').put((req, res, next) => {
       }
     },
   )
-})
+})*/
 
 // Delete
 recordingRoute.route('/delete-recording/:id').delete((req, res, next) => {

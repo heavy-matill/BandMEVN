@@ -1,8 +1,16 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
+let channelSchema = new Schema({
+  title: String,
+  url: String,
+  file: String,
+  pan: Number,
+  gain: Number
+});
 let recordingSchema = new Schema(
   {
+    name: { type: String, unique: true },
     time: {
       type: Date,
       unique: true,
@@ -10,7 +18,6 @@ let recordingSchema = new Schema(
     date: {
       type: String,
       default: function () {
-        console.log(this)
         return this.time.toISOString().split('T')[0];
       }
     },
@@ -22,16 +29,7 @@ let recordingSchema = new Schema(
     },
     title: String,
     type: String,
-    channels: {
-      type: Map,
-      of:
-      {
-        url: String,
-        file: String,
-        pan: Number,
-        gain: Number
-      },
-    },
+    channels: [channelSchema],
     instruments: {
       type: String,
       default: function () {
@@ -45,7 +43,7 @@ let recordingSchema = new Schema(
 )
 
 function instrumentsFromChannels(channels) {
-  return Array.from(channels.keys()).join(', ')
+  return channels.map(function (channel) { return channel.title; }).join(', ')
 }
 
 recordingSchema.pre('save', function (next) {
