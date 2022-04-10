@@ -1,9 +1,14 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = defineConfig({
-  transpileDependencies: [
+ transpileDependencies: [
     'vuetify'
   ],
   devServer: {
-        allowedHosts: 'all'
-    }
+    allowedHosts: 'all'
+  }
 })
+module.exports = {
+  configureWebpack: {
+    devtool: "source-map"
+  }
+};

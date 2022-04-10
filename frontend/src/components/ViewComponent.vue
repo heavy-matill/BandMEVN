@@ -13,19 +13,33 @@
                     right
                     split
                     text="Store Settings"
-                    v-on:click="upload_mixer_config(true, true)"
+                    v-on:click="store_mixer_config(true, true)"
                 >
                     <b-dropdown-item
-                        v-on:click="upload_mixer_config(true, false)"
+                        v-on:click="store_mixer_config(true, false)"
                         >Gains only</b-dropdown-item
                     >
                     <b-dropdown-item
-                        v-on:click="upload_mixer_config(false, true)"
+                        v-on:click="store_mixer_config(false, true)"
                         >Pans only</b-dropdown-item
                     >
                 </b-dropdown>
-                <b-dropdown right split text="Reload Settings">
-                    <b-dropdown-item>Reset</b-dropdown-item>
+                <b-dropdown
+                    right
+                    split
+                    text="Reload Settings"
+                    v-on:click="load_mixer_config()"
+                >
+                    <b-dropdown-item v-on:click="load_mixer_config(true, false)"
+                        >Gains only</b-dropdown-item
+                    >
+                    <b-dropdown-item v-on:click="load_mixer_config(false, true)"
+                        >Pans only</b-dropdown-item
+                    >
+                    <b-dropdown-divider></b-dropdown-divider>
+                    <b-dropdown-item v-on:click="reset_mixer_config()"
+                        >Reset</b-dropdown-item
+                    >
                 </b-dropdown>
             </b-button-group>
         </div>
@@ -33,7 +47,11 @@
             <div v-if="online">Online</div>
             <div v-else>Local</div>
         </b-form-checkbox>
-        <list-component :mix_id="mix_id" />
+        <list-component
+            :mix_id="mix_id"
+            v-on:load-pans="load_pans"
+            v-on:load-gains="load_gains"
+        />
     </div>
 </template>
 
@@ -70,7 +88,6 @@ export default {
                 window.location.origin.split(":").slice(0, -1).join(":") +
                     ":4000"
             }/api/by-id/${this.$route.params.id}`;
-            console.log(apiURL);
             axios.get(apiURL).then((res) => {
                 this.recording = res.data;
                 this.load_config();
@@ -122,7 +139,7 @@ export default {
                 });
             }
         },
-        upload_mixer_config: async function (bGains = true, bPans = true) {
+        store_mixer_config: async function (bGains = true, bPans = true) {
             let updates = [];
             for (const track of this.config.tracks) {
                 let update = { title: track.title };
@@ -134,7 +151,6 @@ export default {
                 }
                 updates.push(update);
             }
-            console.log(updates);
             let apiURL = `${
                 process.env.VUE_APP_BACKEND_URI ||
                 window.location.origin.split(":").slice(0, -1).join(":") +
@@ -142,6 +158,55 @@ export default {
             }/api/update-recording/${this.mix_id}`;
             await axios.post(apiURL, updates).catch((error) => {
                 console.log(error);
+            });
+        },
+        reset_mixer_config: async function () {
+            for (const track of this.config.tracks) {
+                track.gain = 0.5;
+                track.pan = 0;
+            }
+        },
+        load_pans: function (id) {
+            console.log("load_pans", id)
+            this.load_mixer_config(false, true, id);
+        },
+        load_gains: function (id) {
+            console.log("load_gains", id)
+            this.load_mixer_config(true, false, id);
+        },
+        load_mixer_config: async function (
+            bGains = true,
+            bPans = true,
+            id = this.mix_id
+        ) {
+            console.log("load_mixer_config", bGains, bPans, id);
+            let apiURL = `${
+                process.env.VUE_APP_BACKEND_URI ||
+                window.location.origin.split(":").slice(0, -1).join(":") +
+                    ":4000"
+            }/api/by-id/${id}`;
+            axios.get(apiURL).then((res) => {
+                console.log(res.data.channels);
+                this.newconfig = this.config;
+                for (const channel of res.data.channels) {
+                    for (let i = 0; i < this.newconfig.tracks.length; i++) {
+                        if (this.newconfig.tracks[i].title == channel.title) {
+                            if (bGains && channel.gain!=null) {
+                                console.log("gain")
+                                this.newconfig.tracks[i].gain = channel.gain;
+                            }
+                            if (bPans && channel.pan!=null) {
+                                this.newconfig.tracks[i].pan = channel.pan;
+                            }
+                        }
+                    }
+                    //new_tracks.forEach(function (track, index, new_tracks) {
+                        
+                    //});
+                }
+                this.config = this.newconfig;
+                console.log(this.config.tracks[3].gain);
+                console.log(this.config.tracks[4].pan);
             });
         },
     },

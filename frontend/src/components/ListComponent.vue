@@ -144,28 +144,14 @@
                     </td>
                     <td v-if="!isMobile()">{{ row.instruments }}</td>
                     <td>
-                        <router-link
-                            class="mx-auto d-block"
-                            :to="'/view/' + row._id"
-                            tag="button"
-                            ><font-awesome-icon
-                                v-if="row._id != mix_id"
-                                icon="fa-solid fa-arrow-up-from-bracket" /><font-awesome-icon
-                                v-if="row._id == mix_id"
-                                icon="fa-solid fa-trash-arrow-up"
-                        /></router-link>
+                        <font-awesome-icon v-on:click="$emit('load-gains', row._id)"
+                                icon="fa-solid fa-arrow-up-from-bracket" class="pointer"
+                        />
                     </td>
                     <td>
-                        <router-link
-                            class="mx-auto d-block"
-                            :to="'/view/' + row._id"
-                            tag="button"
-                            ><font-awesome-icon
-                                v-if="row._id != mix_id"
-                                icon="fa-solid fa-arrow-up-from-bracket" /><font-awesome-icon
-                                v-if="row._id == mix_id"
-                                icon="fa-solid fa-trash-arrow-up"
-                        /></router-link>
+                            <font-awesome-icon v-on:click="$emit('load-pans', row._id)"
+                                icon="fa-solid fa-arrow-up-from-bracket" class="pointer"
+                        />
                     </td>
                 </tr>
             </tbody>
@@ -197,10 +183,10 @@ export default {
     props: ["mix_id"],
     created() {
         this.isMobile();
-        let apiURL = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin
-            .split(":")
-            .slice(0, -1)
-            .join(":")+":4000")}/api`;
+        let apiURL = `${
+            process.env.VUE_APP_BACKEND_URI ||
+            window.location.origin.split(":").slice(0, -1).join(":") + ":4000"
+        }/api`;
         axios
             .get(apiURL)
             .then((res) => {
@@ -224,10 +210,11 @@ export default {
                 });
         },
         deleteRecording(id) {
-            let apiURL = `${ process.env.VUE_APP_BACKEND_URI || (window.location.origin
-                .split(":")
-                .slice(0, -1)
-                .join(":")+":4000")}/api/delete-recording/${id}`;
+            let apiURL = `${
+                process.env.VUE_APP_BACKEND_URI ||
+                window.location.origin.split(":").slice(0, -1).join(":") +
+                    ":4000"
+            }/api/delete-recording/${id}`;
             let indexOfArrayItem = this.Recordings.findIndex(
                 (i) => i._id === id
             );
@@ -257,5 +244,8 @@ export default {
 thead th:not([class]) {
     vertical-align: middle;
     white-space: nowrap;
+}
+.pointer:hover {
+    cursor: pointer;
 }
 </style>
