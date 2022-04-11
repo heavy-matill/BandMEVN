@@ -8,6 +8,10 @@ import { NavbarPlugin } from 'bootstrap-vue'
 Vue.use(NavbarPlugin)
 import { FormCheckboxPlugin } from 'bootstrap-vue'
 Vue.use(FormCheckboxPlugin)
+import { ButtonPlugin } from 'bootstrap-vue'
+Vue.use(ButtonPlugin)
+import { ButtonGroupPlugin } from 'bootstrap-vue'
+Vue.use(ButtonGroupPlugin)
 
 // Import fontawesome 
 import {library} from '@fortawesome/fontawesome-svg-core'
