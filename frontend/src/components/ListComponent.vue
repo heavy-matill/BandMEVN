@@ -105,13 +105,13 @@
                 <th>#Ch</th>
                 <th v-if="!isMobile()">Channels</th>
                 <th>
-                    <font-awesome-icon icon="fa-solid fa-right-left" />
-                </th>
-                <th>
                     <font-awesome-icon
                         class="fa-rotate-90"
                         icon="fa-solid fa-sliders"
                     />
+                </th>
+                <th>
+                    <font-awesome-icon icon="fa-solid fa-right-left" />
                 </th>
             </thead>
             <tbody slot="body" slot-scope="{ displayData }">

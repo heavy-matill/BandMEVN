@@ -167,11 +167,9 @@ export default {
             }
         },
         load_pans: function (id) {
-            console.log("load_pans", id)
             this.load_mixer_config(false, true, id);
         },
         load_gains: function (id) {
-            console.log("load_gains", id)
             this.load_mixer_config(true, false, id);
         },
         load_mixer_config: async function (
@@ -179,34 +177,24 @@ export default {
             bPans = true,
             id = this.mix_id
         ) {
-            console.log("load_mixer_config", bGains, bPans, id);
             let apiURL = `${
                 process.env.VUE_APP_BACKEND_URI ||
                 window.location.origin.split(":").slice(0, -1).join(":") +
                     ":4000"
             }/api/by-id/${id}`;
             axios.get(apiURL).then((res) => {
-                console.log(res.data.channels);
-                this.newconfig = this.config;
                 for (const channel of res.data.channels) {
-                    for (let i = 0; i < this.newconfig.tracks.length; i++) {
-                        if (this.newconfig.tracks[i].title == channel.title) {
-                            if (bGains && channel.gain!=null) {
-                                console.log("gain")
-                                this.newconfig.tracks[i].gain = channel.gain;
+                    for (let i = 0; i < this.config.tracks.length; i++) {
+                        if (this.config.tracks[i].title == channel.title) {
+                            if (bGains && channel.gain != null) {
+                                this.config.tracks[i].gain = channel.gain;
                             }
-                            if (bPans && channel.pan!=null) {
-                                this.newconfig.tracks[i].pan = channel.pan;
+                            if (bPans && channel.pan != null) {
+                                this.config.tracks[i].pan = channel.pan;
                             }
                         }
                     }
-                    //new_tracks.forEach(function (track, index, new_tracks) {
-                        
-                    //});
                 }
-                this.config = this.newconfig;
-                console.log(this.config.tracks[3].gain);
-                console.log(this.config.tracks[4].pan);
             });
         },
     },
