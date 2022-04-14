@@ -68,7 +68,6 @@ export default {
             online: true,
             mixer_reload: 0,
             is_loaded: false,
-            newconfig: {},
             config: {
                 tracks: [],
                 master: {

@@ -25,7 +25,10 @@ services:
       - "8080:8080"
     volumes:
       - ./frontend:/usr/src/app
+    links:
+      - backend
     environment:
-      - VUE_APP_BACKEND_URI=http://backend
+      - VUE_APP_BACKEND_URI=https://semfshow.herokuapp.com
+      - VUE_APP_BACKEND_URI_notworking=http://backend:4000
 volumes:
   mongo_data:
