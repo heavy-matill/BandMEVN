@@ -2,16 +2,13 @@
     <div>
         <b-navbar
             toggleable="lg"
-            type="light"
-            variant="info"
+            type="dark" variant="dark"
             class="
                 navbar navbar-dark
-                bg-primary
-                justify-content-between
-                flex-nowrap flex-row
+                navbar-custom
             "
         >
-            <b-navbar-brand href="#">Band MEVN</b-navbar-brand>
+            <b-navbar-brand href="#">Semfshow</b-navbar-brand>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -22,7 +19,7 @@
                             >View Recordings</router-link
                         ></b-nav-item
                     >
-                    <b-nav-item
+                    <b-nav-item v-if="false"
                         ><router-link class="nav-link" to="/parse"
                             >Parser</router-link
                         ></b-nav-item
@@ -37,3 +34,8 @@
         </div>
     </div>
 </template>
+<style>
+.navbar .navbar-brand {
+    margin-left: 15px;
+}
+</style>

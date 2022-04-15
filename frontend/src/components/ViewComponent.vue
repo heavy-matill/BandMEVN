@@ -1,52 +1,67 @@
 <template>
     <div>
-        <div v-if="mix_id">
+        <div v-if="mix_id" style="width: 100vw; margin-left: calc(50% - 50vw)">
             <AudioMixer
                 :key="mixer_reload"
-                :is_loaded="is_loaded"
+                @loaded="loadedChange"
                 :config="config"
                 ref="audiomixer"
             />
-            <b-button-group>
-                <b-button>Download Mix</b-button>
-                <b-dropdown
-                    right
-                    split
-                    text="Store Settings"
-                    v-on:click="store_mixer_config(true, true)"
-                >
-                    <b-dropdown-item
-                        v-on:click="store_mixer_config(true, false)"
-                        >Gains only</b-dropdown-item
+            <div v-if="is_loaded" class="text-center">
+                <b-button-group>
+                    <b-button  v-if="false">Download Mix</b-button>
+                    <b-dropdown
+                        right
+                        split
+                        text="Store Settings"
+                        v-on:click="store_mixer_config(true, true)"
                     >
-                    <b-dropdown-item
-                        v-on:click="store_mixer_config(false, true)"
-                        >Pans only</b-dropdown-item
+                        <b-dropdown-item
+                            v-on:click="store_mixer_config(true, false)"
+                            >Gains only</b-dropdown-item
+                        >
+                        <b-dropdown-item
+                            v-on:click="store_mixer_config(false, true)"
+                            >Pans only</b-dropdown-item
+                        >
+                    </b-dropdown>
+                    <b-dropdown
+                        right
+                        split
+                        text="Reload Settings"
+                        v-on:click="load_mixer_config()"
                     >
-                </b-dropdown>
-                <b-dropdown
-                    right
-                    split
-                    text="Reload Settings"
-                    v-on:click="load_mixer_config()"
-                >
-                    <b-dropdown-item v-on:click="load_mixer_config(true, false)"
-                        >Gains only</b-dropdown-item
-                    >
-                    <b-dropdown-item v-on:click="load_mixer_config(false, true)"
-                        >Pans only</b-dropdown-item
-                    >
-                    <b-dropdown-divider></b-dropdown-divider>
-                    <b-dropdown-item v-on:click="reset_mixer_config()"
-                        >Reset</b-dropdown-item
-                    >
-                </b-dropdown>
-            </b-button-group>
+                        <b-dropdown-item
+                            v-on:click="load_mixer_config(true, false)"
+                            >Gains only</b-dropdown-item
+                        >
+                        <b-dropdown-item
+                            v-on:click="load_mixer_config(false, true)"
+                            >Pans only</b-dropdown-item
+                        >
+                        <b-dropdown-divider></b-dropdown-divider>
+                        <b-dropdown-item v-on:click="reset_mixer_config()"
+                            >Reset</b-dropdown-item
+                        >
+                    </b-dropdown>
+                </b-button-group>
+            </div>
         </div>
-        <b-form-checkbox v-model="online" name="online-button" switch>
+        <b-form-checkbox
+            v-if="false"
+            v-model="online"
+            name="online-button"
+            switch
+        >
             <div v-if="online">Online</div>
             <div v-else>Local</div>
         </b-form-checkbox>
+        <div v-if="false">
+            <audio :src="audio" controls />
+            <br />
+            <button @click="transcode">Start</button>
+            <p>{{ ffmpeg_message }}</p>
+        </div>
         <list-component
             :mix_id="mix_id"
             v-on:load-pans="load_pans"
@@ -54,7 +69,7 @@
         />
     </div>
 </template>
-
+<script src="http://localhost:8080/ffmpeg.min.js"></script>
 <script>
 import axios from "axios";
 import ListComponent from "./ListComponent.vue";
@@ -76,6 +91,10 @@ export default {
                     muted: false,
                 },
             },
+            ffmpeg: { type: Object, default: null },
+            audio: { type: Object, default: null },
+            ffmpeg_state: 0,
+            ffmpeg_message: "",
         };
     },
     components: { AudioMixer, ListComponent },
@@ -196,6 +215,76 @@ export default {
                 }
             });
         },
+
+        loadedChange(loaded) {
+            this.is_loaded = loaded;
+        },
+        /*initFfmpeg() {
+            //const { createFFmpeg, fetchFile } = FFmpeg;
+            if (this.ffmpeg === null) {
+                this.ffmpeg = createFFmpeg({
+                    corePath: "http://localhost:8080/ffmpeg-core.js",
+                    log: true,
+                });
+            }
+            this.ffmpeg_message = "Initialized";
+            this.audio = null;
+        },
+        transcode: async function () {
+            this.initFfmpeg();
+            this.ffmpeg_message = "Loading ffmpeg-core.js";
+            if (!this.ffmpeg.isLoaded()) {
+                await this.ffmpeg.load();
+            }
+            this.ffmpeg_message = "Start transcoding";
+            let ffmpeg_cmd = [];
+            let ffmpeg_amerge = "";
+            let ffmpeg_pan_L = [];
+            let ffmpeg_pan_R = [];
+            let files = this.$refs["vue-audio-mixer"].data.files;
+            for (const [index, channel] of this.config.channels.entries()) {
+                // no fetch needed if loaded in mixer
+                this.ffmpeg.FS(
+                    "writeFile",
+                    `${index}.mp3`,
+                    files[index] //await fetchFile(channel.url)
+                );
+                ffmpeg_cmd.push("-i");
+                ffmpeg_cmd.push(`${index}.mp3`);
+                ffmpeg_amerge += `[${index}]`;
+                let pan_fac_R =
+                    Math.sin(((channel.pan + 90) * Math.PI) / 360) *
+                    channel.gain; //* master gain
+                let pan_fac_L =
+                    Math.cos(((channel.pan + 90) * Math.PI) / 360) *
+                    channel.gain; //* master gain
+                ffmpeg_pan_L.push(`${pan_fac_L}*c${index}`);
+                ffmpeg_pan_R.push(`${pan_fac_R}*c${index}`);
+            }
+            ffmpeg_cmd.push("-filter_complex");
+            ffmpeg_cmd.push(
+                `${ffmpeg_amerge}amerge=inputs=${
+                    config.channels.length
+                },pan=stereo|FL=${ffmpeg_pan_L.join(
+                    "+"
+                )}|FR=${ffmpeg_pan_R.join("+")}`
+            );
+            ffmpeg_cmd.push("mix.mp3");
+            //ffmpeg -i L.wav -i R.wav -filter_complex "[0][1]amerge=inputs=2,pan=stereo|FL=c0+0.5*c1|FR=c1" mixL.mp3
+            //await ffmpeg.run("-i", "test.mp3", "test.wav");
+            await this.ffmpeg.run(...ffmpeg_cmd);
+            ffmpeg_message = "Complete transcoding";
+            const data = this.ffmpeg.FS("readFile", "mix.mp3");
+            audio = URL.createObjectURL(
+                new Blob([data.buffer], { type: "audio/mp3" })
+            );
+        },*/
     },
 };
 </script>
+<style>
+body {
+    overflow-x: hidden;
+}
+</style>>
+
