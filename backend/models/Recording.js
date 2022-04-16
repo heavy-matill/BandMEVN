@@ -11,10 +11,7 @@ let channelSchema = new Schema({
 let recordingSchema = new Schema(
   {
     name: { type: String, unique: true },
-    time: {
-      type: Date,
-      unique: true,
-    },
+    time: Date,
     date: {
       type: String,
       default: function () {
