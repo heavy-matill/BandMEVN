@@ -29,7 +29,7 @@
             </b-collapse>
         </b-navbar>
         <!-- Router view -->
-        <div class="container">
+        <div class="container-fluid">
             <router-view></router-view>
         </div>
     </div>
@@ -38,7 +38,7 @@
 .navbar .navbar-brand {
     margin-left: 15px;
 }
-.container {
+.container-fluid {
     padding: 0 !important;
 }
 </style>
