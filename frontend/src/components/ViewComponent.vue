@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div v-if="mix_id" style="width: 100vw; margin-left: calc(50% - 50vw)">
+        <div v-if="mix_id" style="width: 100%; min-height:150px">
             <AudioMixer
                 :key="mixer_reload"
                 @loaded="loadedChange"

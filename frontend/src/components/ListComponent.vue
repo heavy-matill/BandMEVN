@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="overflow-x: auto">
         <v-table
             :data="Recordings"
             :filters="filters"
@@ -140,7 +140,7 @@
                     <td>{{ row.title }}</td>
                     <td>{{ row.type }}</td>
                     <td>
-                        {{ Object.keys(row.channels).length }}
+                        {{ Object.keys(row.channels).length }}          
                     </td>
                     <td v-if="!isMobile()">{{ row.instruments }}</td>
                     <td>

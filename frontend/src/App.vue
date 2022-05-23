@@ -29,7 +29,7 @@
             </b-collapse>
         </b-navbar>
         <!-- Router view -->
-        <div class="container mt-5">
+        <div class="container">
             <router-view></router-view>
         </div>
     </div>
@@ -37,5 +37,8 @@
 <style>
 .navbar .navbar-brand {
     margin-left: 15px;
+}
+.container {
+    padding: 0 !important;
 }
 </style>
