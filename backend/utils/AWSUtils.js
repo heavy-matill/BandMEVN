@@ -6,7 +6,7 @@ aws.config.update({
 });
 
 exports = module.exports = {
-    sign: function (filename, callback) {
+    sign: function (filename, operation, callback) {
         var s3 = new aws.S3({ signatureVersion: 'v4', region: 'eu-central-1' });
 
         var params = {
@@ -14,6 +14,14 @@ exports = module.exports = {
             Key: filename,
             Expires: 60
         };
-        s3.getSignedUrl('putObject', params, callback);
+        s3.getSignedUrl(operation, params, callback);
+    },
+
+    signPut: function (filename, callback) {
+        return this.sign(filename, 'putObject', callback);
+    },
+
+    signGet: function (filename, callback) {
+        return this.sign(filename, 'getObject', callback);
     }
 };

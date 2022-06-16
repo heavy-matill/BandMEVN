@@ -7,14 +7,26 @@ awsRoute.route('/').get((req, res, next) => {
   res.json("this is sub route /aws")
 })
 
-awsRoute.route('/sign/:filename').get((req, res, next) => {
-  console.log("signing " + req.params.filename);
-  AWSUtils.sign(req.params.filename, (err, data) => {
+awsRoute.route('/sign/:op/:filename(*)').get((req, res, next) => {
+  console.log(`Signing ${req.params.op} ${req.params.filename}`);
+  AWSUtils.sign(req.params.filename, req.params.op + "Object", (err, data) => {
     if (err) {
       console.log(err);
       res.json()
     } else {
       res.json(data)
+    }
+  });
+})
+
+awsRoute.route('/files/:filename(*)').get((req, res, next) => {
+  console.log(`getting file ${req.params.filename}`);
+  AWSUtils.sign(req.params.filename, "getObject", (err, data) => {
+    if (err) {
+      console.log(err);
+      res.json()
+    } else {
+      res.redirect(data)
     }
   });
 })
