@@ -31,6 +31,10 @@ app.use('/api', recordingAPI)
 // Files
 app.use('/audio-files', express.static('audio-files'))
 
+// S3 Upload get signed url
+const awsRoute = require('./routes/aws.route')
+app.use('/aws', awsRoute)
+
 // Create port
 const port = process.env.PORT || 4000
 const server = app.listen(port, () => {
