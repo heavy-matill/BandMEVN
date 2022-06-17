@@ -35,7 +35,7 @@ let recordingSchema = new Schema(
     },
   },
   {
-    collection: 'recordings2',
+    collection: 'recordings',
   },
 )
 
