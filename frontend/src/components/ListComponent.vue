@@ -89,7 +89,7 @@
                 <th v-if="!isMobile()">
                     <input
                         placeholder="Channels"
-                        v-model="filters.instruments.value"
+                        v-model="filters.channels.value"
                         class="form-control"
                     />
                 </th>
@@ -140,9 +140,9 @@
                     <td>{{ row.title }}</td>
                     <td>{{ row.type }}</td>
                     <td>
-                        {{ Object.keys(row.channels).length }}          
+                        {{ Object.keys(row.tracks).length }}          
                     </td>
-                    <td v-if="!isMobile()">{{ row.instruments }}</td>
+                    <td v-if="!isMobile()">{{ row.channels }}</td>
                     <td>
                         <font-awesome-icon v-on:click="$emit('load-gains', row._id)"
                                 icon="fa-solid fa-arrow-up-from-bracket" class="pointer"
@@ -174,7 +174,7 @@ export default {
                 date: { value: "", keys: ["date"] },
                 title: { value: "", keys: ["title"] },
                 type: { value: "", keys: ["type"] },
-                instruments: { value: "", custom: this.instrumentsFilter },
+                channels: { value: "", custom: this.channelsFilter },
             },
             currentPage: 1,
             totalPages: 0,
@@ -198,15 +198,15 @@ export default {
     },
     computed: {},
     methods: {
-        instrumentsFilter(filterValue, row) {
+        channelsFilter(filterValue, row) {
             return filterValue
                 .split(",")
                 .join(" ")
                 .split(" ")
-                .every((instr) => {
-                    return row.instruments
+                .every((ch) => {
+                    return row.channels
                         .toLowerCase()
-                        .includes(instr.toLowerCase());
+                        .includes(ch.toLowerCase());
                 });
         },
         deleteRecording(id) {

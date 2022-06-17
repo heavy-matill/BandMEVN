@@ -134,10 +134,10 @@ export default {
             this.is_loaded = false;
             this.mixer_reload++;
             this.config.tracks = [];
-            for (const channel of this.recording.channels) {
+            for (const track of this.recording.tracks) {
                 let url;
                 if (this.online) {
-                    url = channel.url;
+                    url = track.url;
                 } else {
                     url = `${
                         process.env.VUE_APP_BACKEND_URI ||
@@ -145,13 +145,13 @@ export default {
                             .split(":")
                             .slice(0, -1)
                             .join(":") + ":4000"
-                    }/audio-files/${channel.file}`;
+                    }/audio-files/${track.file}`;
                 }
                 this.config.tracks.push({
-                    title: channel.title,
+                    title: track.title,
                     url: url,
-                    pan: channel.pan ?? 0,
-                    gain: channel.gain ?? 0.5,
+                    pan: track.pan ?? 0,
+                    gain: track.gain ?? 0.5,
                     muted: false,
                     hidden: false,
                 });
@@ -201,14 +201,14 @@ export default {
                     ":4000"
             }/api/by-id/${id}`;
             axios.get(apiURL).then((res) => {
-                for (const channel of res.data.channels) {
+                for (const track of res.data.tracks) {
                     for (let i = 0; i < this.config.tracks.length; i++) {
-                        if (this.config.tracks[i].title == channel.title) {
-                            if (bGains && channel.gain != null) {
-                                this.config.tracks[i].gain = channel.gain;
+                        if (this.config.tracks[i].title == track.title) {
+                            if (bGains && track.gain != null) {
+                                this.config.tracks[i].gain = track.gain;
                             }
-                            if (bPans && channel.pan != null) {
-                                this.config.tracks[i].pan = channel.pan;
+                            if (bPans && track.pan != null) {
+                                this.config.tracks[i].pan = track.pan;
                             }
                         }
                     }
@@ -242,29 +242,29 @@ export default {
             let ffmpeg_pan_L = [];
             let ffmpeg_pan_R = [];
             let files = this.$refs["vue-audio-mixer"].data.files;
-            for (const [index, channel] of this.config.channels.entries()) {
+            for (const [index, track] of this.config.tracks.entries()) {
                 // no fetch needed if loaded in mixer
                 this.ffmpeg.FS(
                     "writeFile",
                     `${index}.mp3`,
-                    files[index] //await fetchFile(channel.url)
+                    files[index] //await fetchFile(track.url)
                 );
                 ffmpeg_cmd.push("-i");
                 ffmpeg_cmd.push(`${index}.mp3`);
                 ffmpeg_amerge += `[${index}]`;
                 let pan_fac_R =
-                    Math.sin(((channel.pan + 90) * Math.PI) / 360) *
-                    channel.gain; //* master gain
+                    Math.sin(((track.pan + 90) * Math.PI) / 360) *
+                    track.gain; //* master gain
                 let pan_fac_L =
-                    Math.cos(((channel.pan + 90) * Math.PI) / 360) *
-                    channel.gain; //* master gain
+                    Math.cos(((track.pan + 90) * Math.PI) / 360) *
+                    track.gain; //* master gain
                 ffmpeg_pan_L.push(`${pan_fac_L}*c${index}`);
                 ffmpeg_pan_R.push(`${pan_fac_R}*c${index}`);
             }
             ffmpeg_cmd.push("-filter_complex");
             ffmpeg_cmd.push(
                 `${ffmpeg_amerge}amerge=inputs=${
-                    config.channels.length
+                    config.tracks.length
                 },pan=stereo|FL=${ffmpeg_pan_L.join(
                     "+"
                 )}|FR=${ffmpeg_pan_R.join("+")}`

@@ -60,28 +60,28 @@ recordingRoute.route('/add-recording/').post((req, res, next) => {
   let type = hours_type.slice(6) || "Rehearsal";
 
   let title = req.body.file.split('_')[2]
-  let instrument = req.body.file.split('_').slice(3).join('_').split('.').slice(0, -1).join('.')
+  let channel = req.body.file.split('_').slice(3).join('_').split('.').slice(0, -1).join('.')
 
   let time = new Date(`${date} ${hours.slice(0, 2)}:${hours.slice(2, 4)}:${hours.slice(2, 4)}`)
   let query =
     { name: name }
-  let dataToBeUpdated = { title: instrument, url: req.body.url, file: req.body.file }
+  let dataToBeUpdated = { title: channel, url: req.body.url, file: req.body.file }
   //console.log(dataToBeUpdated)
   var bulk = RecordingModel.collection.initializeOrderedBulkOp();
-  bulk.find(query).upsert().updateOne({ "$setOnInsert": { name: name, time: time, title: title, type: type, channels: [dataToBeUpdated] } });
-  bulk.find({ ...query, "channels.title": { "$ne": instrument } }).updateOne({
+  bulk.find(query).upsert().updateOne({ "$setOnInsert": { name: name, time: time, title: title, type: type, tracks: [dataToBeUpdated] } });
+  bulk.find({ ...query, "tracks.title": { "$ne": channel } }).updateOne({
     "$push": {
-      channels: {//dataToBeUpdated
+      tracks: {//dataToBeUpdated
         "$each": [dataToBeUpdated],
         "$sort": { title: 1 }
       }
     }
   });
-  bulk.find({ ...query, "channels.title": instrument }).updateOne({
+  bulk.find({ ...query, "tracks.title": channel }).updateOne({
     "$set":
     Object.fromEntries(
       Object.entries(dataToBeUpdated).map(
-        ([k, v], i) => ["channels.$."+k, v]
+        ([k, v], i) => ["tracks.$."+k, v]
       )
     )
   });
@@ -101,17 +101,17 @@ recordingRoute.route('/update-recording/:id').post((req, res, next) => {
   var bulk = RecordingModel.collection.initializeOrderedBulkOp();
   for (const update of updates) {
     bulk.find({ _id: 
-      mongoose.Types.ObjectId(id), "channels.title": update.title }).upsert().updateOne({
+      mongoose.Types.ObjectId(id), "tracks.title": update.title }).upsert().updateOne({
       "$set":
       Object.fromEntries(
         Object.entries(update).map(
-          ([k, v], i) => ["channels.$."+k, v]
+          ([k, v], i) => ["tracks.$."+k, v]
         )
       )
-       // { "channels.$": update }
+       // { "tracks.$": update }
     });
     console.log(update)
-    //RecordingModel.findOneAndUpdate({ _id: id, "channels.title": update.title }, { $set: { "channels.$": update } })
+    //RecordingModel.findOneAndUpdate({ _id: id, "tracks.title": update.title }, { $set: { "tracks.$": update } })
   }
   bulk.execute(function (err, result) {
     if (err)

@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
-let channelSchema = new Schema({
+let trackSchema = new Schema({
   title: String,
   url: String,
   file: String,
@@ -26,25 +26,25 @@ let recordingSchema = new Schema(
     },
     title: String,
     type: String,
-    channels: [channelSchema],
-    instruments: {
+    tracks: [trackSchema],
+    channels: {
       type: String,
       default: function () {
-        return instrumentsFromChannels(this.channels)
+        return channelsFromTracks(this.tracks)
       }
     },
   },
   {
-    collection: 'recordings',
+    collection: 'recordings2',
   },
 )
 
-function instrumentsFromChannels(channels) {
-  return channels.map(function (channel) { return channel.title; }).join(', ')
+function channelsFromTracks(tracks) {
+  return tracks.map(function (track) { return track.title; }).join(', ')
 }
 
 recordingSchema.pre('save', function (next) {
-  this.instruments = instrumentsFromChannels(this.channels)
+  this.channels = channelsFromTracks(this.tracks)
   next();
 });
 module.exports = mongoose.model('Recording', recordingSchema)
