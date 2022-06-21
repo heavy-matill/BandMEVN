@@ -48,7 +48,7 @@ recordingRoute.route('/edit-recording/:id').get((req, res, next) => {
 })
 
 // Add file
-recordingRoute.route('/add-recording/').post((req, res, next) => {
+recordingRoute.route('/add-recording-by-filename/').post((req, res, next) => {
   req.body.url;
   req.body.file;
 
@@ -79,11 +79,53 @@ recordingRoute.route('/add-recording/').post((req, res, next) => {
   });
   bulk.find({ ...query, "tracks.title": channel }).updateOne({
     "$set":
-    Object.fromEntries(
-      Object.entries(dataToBeUpdated).map(
-        ([k, v], i) => ["tracks.$."+k, v]
+      Object.fromEntries(
+        Object.entries(dataToBeUpdated).map(
+          ([k, v], i) => ["tracks.$." + k, v]
+        )
       )
-    )
+  });
+
+  bulk.execute(function (err, result) {
+    if (err)
+      console.log(err)
+    //console.log(result)
+    res.json(null)
+  });
+
+})
+// Add file
+recordingRoute.route('/add-recording/').post((req, res, next) => {
+  req.body.url;
+  req.body.file;
+
+  let name = req.body.file
+
+  let title = req.body.title
+  let channel = req.body.channel
+
+  let time = new Date(req.body.date)
+  let query =
+    { time: time }
+  let dataToBeUpdated = { title: channel, url: req.body.url, file: req.body.file }
+  //console.log(dataToBeUpdated)
+  var bulk = RecordingModel.collection.initializeOrderedBulkOp();
+  bulk.find(query).upsert().updateOne({ "$setOnInsert": { name: name, time: time, title: title, type: req.body.type, tracks: [dataToBeUpdated] } });
+  bulk.find({ ...query, "tracks.title": { "$ne": channel } }).updateOne({
+    "$push": {
+      tracks: {//dataToBeUpdated
+        "$each": [dataToBeUpdated],
+        "$sort": { title: 1 }
+      }
+    }
+  });
+  bulk.find({ ...query, "tracks.title": channel }).updateOne({
+    "$set":
+      Object.fromEntries(
+        Object.entries(dataToBeUpdated).map(
+          ([k, v], i) => ["tracks.$." + k, v]
+        )
+      )
   });
 
   bulk.execute(function (err, result) {
@@ -100,15 +142,17 @@ recordingRoute.route('/update-recording/:id').post((req, res, next) => {
   let updates = req.body
   var bulk = RecordingModel.collection.initializeOrderedBulkOp();
   for (const update of updates) {
-    bulk.find({ _id: 
-      mongoose.Types.ObjectId(id), "tracks.title": update.title }).upsert().updateOne({
+    bulk.find({
+      _id:
+        mongoose.Types.ObjectId(id), "tracks.title": update.title
+    }).upsert().updateOne({
       "$set":
-      Object.fromEntries(
-        Object.entries(update).map(
-          ([k, v], i) => ["tracks.$."+k, v]
+        Object.fromEntries(
+          Object.entries(update).map(
+            ([k, v], i) => ["tracks.$." + k, v]
+          )
         )
-      )
-       // { "tracks.$": update }
+      // { "tracks.$": update }
     });
     console.log(update)
     //RecordingModel.findOneAndUpdate({ _id: id, "tracks.title": update.title }, { $set: { "tracks.$": update } })
