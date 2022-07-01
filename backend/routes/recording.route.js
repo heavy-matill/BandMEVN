@@ -37,8 +37,8 @@ recordingRoute.route('/by-id/:id').get((req, res, next) => {
   })
 })
 
-recordingRoute.route('/edit-recording/:id').get((req, res, next) => {
-  RecordingModel.findById(req.params.id, (error, data) => {
+recordingRoute.route('/edit-recording/:id').post((req, res, next) => {
+  RecordingModel.findByIdAndUpdate(req.params.id, req.body.update, (error, data) => {
     if (error) {
       return next(error)
     } else {
@@ -140,6 +140,7 @@ recordingRoute.route('/add-recording/').post((req, res, next) => {
 recordingRoute.route('/update-recording/:id').post((req, res, next) => {
   let id = req.params.id
   let updates = req.body
+  console.log(updates)
   var bulk = RecordingModel.collection.initializeOrderedBulkOp();
   for (const update of updates) {
     bulk.find({
