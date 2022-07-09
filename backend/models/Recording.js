@@ -4,13 +4,13 @@ const Schema = mongoose.Schema
 let trackSchema = new Schema({
   title: String,
   url: String,
-  file: String,
+  filename: String,
   pan: Number,
   gain: Number
 });
 let recordingSchema = new Schema(
   {
-    name: { type: String, unique: true },
+    //name: { type: String, unique: true },
     time: Date,
     date: {
       type: String,

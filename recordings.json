@@ -1,336 +1,72 @@
 [{
   "_id": {
-    "$oid": "625193bca3e88cc69ac1b1e6"
-  },
-  "name": "2022-02-23_203253_Every Road",
-  "tracks": [
-    {
-      "title": "Bass",
-      "url": "https://audio.jukehost.co.uk/YC7NSUjnHrLXVPeIY7IimvFqA1Fxxi9W",
-      "file": "2022-02-23_203253_Every Road_Bass.mp3",
-      "gain": 1.100000023841858,
-      "pan": 0
-    },
-    {
-      "title": "D_B",
-      "url": "https://audio.jukehost.co.uk/M8Xi4DjLXss9wagBhhpBFYBtq9QVabAW",
-      "file": "2022-02-23_203253_Every Road_D_B.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "D_OH_L",
-      "url": "https://audio.jukehost.co.uk/JcL3GcBO5s6rLjIAxHmLVLc9OJZEoikW",
-      "file": "2022-02-23_203253_Every Road_D_OH_L.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "D_OH_R",
-      "url": "https://audio.jukehost.co.uk/tCPh3puIGpS0cqgCHxrI2TGyxIPPEbZ3",
-      "file": "2022-02-23_203253_Every Road_D_OH_R.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Git",
-      "url": "https://audio.jukehost.co.uk/BmAGOZI6F3oCrBmY2QcVaO6q70zBjHLm",
-      "file": "2022-02-23_203253_Every Road_Git.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/izCQAhki7l7mvondxp10zfNAa7HoSX01",
-      "file": "2022-02-23_203253_Every Road_Keys_L.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/5ylehG6yyxmNe0LV2XGCIQ5aPAQO80tL",
-      "file": "2022-02-23_203253_Every Road_Keys_R.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/Kxsrykvs7nqsBc4knNdLma6sFfEzuWng",
-      "file": "2022-02-23_203253_Every Road_Sax.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/tvNKGK4hJjas8K8VDagh07eZQBnnsblB",
-      "file": "2022-02-23_203253_Every Road_Trb.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/5Sa7fYpjFkxtU6emkOdPdrAbXQ4fsRaW",
-      "file": "2022-02-23_203253_Every Road_Trpt.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/gRTXJyyeawa2rz0xQwHzYxkirsl6aBTf",
-      "file": "2022-02-23_203253_Every Road_Vox1.mp3",
-      "gain": 1.5,
-      "pan": 0
-    },
-    {
-      "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/hA22LqQ2JmFPZtv4wgTLGoCZIDCmBZwz",
-      "file": "2022-02-23_203253_Every Road_Vox3.mp3",
-      "gain": 0.7,
-      "pan": 0
-    }
-  ],
-  "time": {
-    "$date": "2022-02-23T19:32:32Z"
-  },
-  "title": "Every Road",
-  "type": "Rehearsal"
-},{
-  "_id": {
-    "$oid": "625193bda3e88cc69ac1b400"
-  },
-  "name": "2022-02-23_204026_Showgeschäft",
-  "tracks": [
-    {
-      "title": "Bass",
-      "url": "https://audio.jukehost.co.uk/0G9UW3YtPdaDCqP9EH1b6SUjXOpkvekK",
-      "file": "2022-02-23_204026_Showgeschäft_Bass.mp3"
-    },
-    {
-      "title": "D_Bm",
-      "url": "https://audio.jukehost.co.uk/ksYE7TqDrS6IFb8ZO6cPpDlWpAhLFNmg",
-      "file": "2022-02-23_204026_Showgeschäft_D_Bm.mp3"
-    },
-    {
-      "title": "D_OH_L",
-      "url": "https://audio.jukehost.co.uk/8agkAu374GFdze6ceceaeX9iqazZU2iV",
-      "file": "2022-02-23_204026_Showgeschäft_D_OH_L.mp3"
-    },
-    {
-      "title": "D_OH_R",
-      "url": "https://audio.jukehost.co.uk/TzYTqUWMS7IxHfZ4F3Da92kmolKsTL5z",
-      "file": "2022-02-23_204026_Showgeschäft_D_OH_R.mp3"
-    },
-    {
-      "title": "Git",
-      "url": "https://audio.jukehost.co.uk/BbQcbI5V3TwCPIGrIZGurkD8DBCnYWlP",
-      "file": "2022-02-23_204026_Showgeschäft_Git.mp3"
-    },
-    {
-      "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/jCjFQqXiGSvRmux5Egsx7qCWgt2rN0VS",
-      "file": "2022-02-23_204026_Showgeschäft_Keys_L.mp3"
-    },
-    {
-      "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/aq4IgEy95faaWyW0VQ8OzKhbbHyWocfT",
-      "file": "2022-02-23_204026_Showgeschäft_Keys_R.mp3"
-    },
-    {
-      "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/hC7Io5LUKpPtMhIOXeGHNDnCO1r0Blg9",
-      "file": "2022-02-23_204026_Showgeschäft_Sax.mp3"
-    },
-    {
-      "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/67OoyPhcSEMcU4by6YDxoCPXvOYRVcU3",
-      "file": "2022-02-23_204026_Showgeschäft_Trb.mp3"
-    },
-    {
-      "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/jaRvnd9TUBsuhB7XWddlUUTLOmdv0Mp1",
-      "file": "2022-02-23_204026_Showgeschäft_Trpt.mp3"
-    },
-    {
-      "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/RKCVH1lNbMHrGVG3XLLaLud6PWQPu1I5",
-      "file": "2022-02-23_204026_Showgeschäft_Vox1.mp3"
-    },
-    {
-      "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/UBUjttvPABtRyk6FRuF30J0zOHG1ydc2",
-      "file": "2022-02-23_204026_Showgeschäft_Vox3.mp3"
-    }
-  ],
-  "time": {
-    "$date": "2022-02-23T19:40:40Z"
-  },
-  "title": "Showgeschäft",
-  "type": "Rehearsal"
-},{
-  "_id": {
-    "$oid": "625193bda3e88cc69ac1b58e"
-  },
-  "name": "2022-02-23_210717_Snake Chapel",
-  "tracks": [
-    {
-      "title": "Bass",
-      "url": "https://audio.jukehost.co.uk/cnur4DqKZKoXn9TdzNqLrYki2PUQQXQJ",
-      "file": "2022-02-23_210717_Snake Chapel_Bass.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "D_B",
-      "url": "https://audio.jukehost.co.uk/uL0Dr4EwUvKP2V1JLwrsjfR8YtELJzzP",
-      "file": "2022-02-23_210717_Snake Chapel_D_B.mp3",
-      "gain": 0.9,
-      "pan": 0
-    },
-    {
-      "title": "D_OH_L",
-      "url": "https://audio.jukehost.co.uk/OBNDHwzfsFeKQ4DpViFsuvyEpQR6XREx",
-      "file": "2022-02-23_210717_Snake Chapel_D_OH_L.mp3",
-      "gain": 0.2,
-      "pan": -89
-    },
-    {
-      "title": "D_OH_R",
-      "url": "https://audio.jukehost.co.uk/yHfHm76XoRzo9CJnsKAApwhHcPC2o9H6",
-      "file": "2022-02-23_210717_Snake Chapel_D_OH_R.mp3",
-      "gain": 0.2,
-      "pan": 89
-    },
-    {
-      "title": "Git",
-      "url": "https://audio.jukehost.co.uk/g3KzKxkyL7B7uK63yCnnKq6n8uD1JlNt",
-      "file": "2022-02-23_210717_Snake Chapel_Git.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/Oj1zn0Xx8IlAIuh35fVrD7bUxTiSW3mM",
-      "file": "2022-02-23_210717_Snake Chapel_Keys_L.mp3",
-      "gain": 0.6,
-      "pan": 29
-    },
-    {
-      "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/oWWG68PrfuXYB8jGpLQjpjixKUNrTmaO",
-      "file": "2022-02-23_210717_Snake Chapel_Keys_R.mp3",
-      "gain": 0.6,
-      "pan": 57
-    },
-    {
-      "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/YW74IuV2DkAWG0COwYwFTKQ1gVQIjVcW",
-      "file": "2022-02-23_210717_Snake Chapel_Sax.mp3",
-      "gain": 0.7,
-      "pan": -35
-    },
-    {
-      "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/hEBpGtHalrlDX42ZxGYFyhR0m8FImxTB",
-      "file": "2022-02-23_210717_Snake Chapel_Trb.mp3",
-      "gain": 1.5,
-      "pan": -61
-    },
-    {
-      "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/gn6ifP6qpuxpY5F0S03B8MkNtGn5x1Jo",
-      "file": "2022-02-23_210717_Snake Chapel_Trpt.mp3",
-      "gain": 1.5,
-      "pan": -18
-    },
-    {
-      "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/dwsAOequocxt8le2q87G7CtkSyNaMQxJ",
-      "file": "2022-02-23_210717_Snake Chapel_Vox1.mp3",
-      "gain": 1.5,
-      "pan": 0
-    },
-    {
-      "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/tmOpyMn5TYO2AOhBNWDhRQBAjmnQfwRR",
-      "file": "2022-02-23_210717_Snake Chapel_Vox3.mp3",
-      "gain": 1,
-      "pan": 0
-    }
-  ],
-  "time": {
-    "$date": "2022-02-23T20:07:07Z"
-  },
-  "title": "Snake Chapel",
-  "type": "Rehearsal"
-},{
-  "_id": {
     "$oid": "625193bea3e88cc69ac1b796"
   },
   "name": "2022-02-23_211954_Snake Chapel",
   "tracks": [
     {
       "title": "Bass",
-      "url": "https://audio.jukehost.co.uk/pEJFuPgFZQdeOo1mRQy7cUeQVkJ2cSLO",
-      "file": "2022-02-23_211954_Snake Chapel_Bass.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_Bass.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_Bass.mp3"
     },
     {
       "title": "D_B",
-      "url": "https://audio.jukehost.co.uk/iZEOJ9zcMViRiOQMvFMtwl6a4U76xhFD",
-      "file": "2022-02-23_211954_Snake Chapel_D_B.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_D_B.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_D_B.mp3"
     },
     {
       "title": "D_OH_L",
-      "url": "https://audio.jukehost.co.uk/oUy6s6wtMp7db2HfK8l58VVE3rdBCXLV",
-      "file": "2022-02-23_211954_Snake Chapel_D_OH_L.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_D_OH_L.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_D_OH_L.mp3"
     },
     {
       "title": "D_OH_R",
-      "url": "https://audio.jukehost.co.uk/z9vIos52vXvkPoZDTRaOjeW3O1lhfvJ7",
-      "file": "2022-02-23_211954_Snake Chapel_D_OH_R.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_D_OH_R.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_D_OH_R.mp3"
     },
     {
       "title": "Git",
-      "url": "https://audio.jukehost.co.uk/Pxyq5gaRPjXkYH2lWpxRo8bCbgkHzjv5",
-      "file": "2022-02-23_211954_Snake Chapel_Git.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_Git.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_Git.mp3"
     },
     {
       "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/J0adHUimq43gaQmAEQ93NEcl23OiaVwc",
-      "file": "2022-02-23_211954_Snake Chapel_Keys_L.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_Keys_L.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_Keys_L.mp3"
     },
     {
       "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/UHagKx0rbj9LSQLIeDwaliGAwpG35LOO",
-      "file": "2022-02-23_211954_Snake Chapel_Keys_R.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_Keys_R.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_Keys_R.mp3"
     },
     {
       "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/Qan6t1FPkvaM1Lel4druKmWG4EF0yWmU",
-      "file": "2022-02-23_211954_Snake Chapel_Sax.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_Sax.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_Sax.mp3"
     },
     {
       "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/1d2JjywBpO15bPOojFrAchWr5SJg4es5",
-      "file": "2022-02-23_211954_Snake Chapel_Trb.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_Trb.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_Trb.mp3"
     },
     {
       "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/Hm0tw33SXwCXPuf7IHhxUutTwhaP7mW5",
-      "file": "2022-02-23_211954_Snake Chapel_Trpt.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_Trpt.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_Trpt.mp3"
     },
     {
       "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/NcqandMhCo0ydfaGzqiH7HVptYNyWTKZ",
-      "file": "2022-02-23_211954_Snake Chapel_Vox1.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_Vox1.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_Vox1.mp3"
     },
     {
       "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/fGxYZqd0Mwdk4LeZzWiFyTNfio2T8d6M",
-      "file": "2022-02-23_211954_Snake Chapel_Vox3.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:19:19.000Z/2022-02-23_211954_Snake Chapel_Vox3.mp3",
+      "filename": "2022-02-23_211954_Snake Chapel_Vox3.mp3"
     }
   ],
   "time": {
-    "$date": "2022-02-23T20:19:19Z"
+    "$date": "2022-02-23T19:19:19Z"
   },
   "title": "Snake Chapel",
   "type": "Rehearsal"
@@ -342,51 +78,568 @@
   "tracks": [
     {
       "title": "D_OH_L",
-      "url": "https://audio.jukehost.co.uk/pz4vX5ehf3bUDMRHMTVNajCqHRitFNfe",
-      "file": "2022-03-23_204452_I don't_D_OH_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-23T19:44:44.000Z/2022-03-23_204452_I don't_D_OH_L.mp3",
+      "filename": "2022-03-23_204452_I don't_D_OH_L.mp3",
       "gain": 0.8,
       "pan": 0
     },
     {
       "title": "Git",
-      "url": "https://audio.jukehost.co.uk/xt9KWUbAOSgB7SZmYNd69k8HdeTql8V4",
-      "file": "2022-03-23_204452_I don't_Git.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-23T19:44:44.000Z/2022-03-23_204452_I don't_Git.mp3",
+      "filename": "2022-03-23_204452_I don't_Git.mp3",
       "gain": 1,
       "pan": 47
     },
     {
       "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/mgGfPkUgos4vphQZYNwl9REXFdHp2PM5",
-      "file": "2022-03-23_204452_I don't_Sax.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-23T19:44:44.000Z/2022-03-23_204452_I don't_Sax.mp3",
+      "filename": "2022-03-23_204452_I don't_Sax.mp3",
       "gain": 0.9,
       "pan": -35
     },
     {
       "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/70cNL0UIluOTXEGuuRdkZzauvU7WOFUn",
-      "file": "2022-03-23_204452_I don't_Trb.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-23T19:44:44.000Z/2022-03-23_204452_I don't_Trb.mp3",
+      "filename": "2022-03-23_204452_I don't_Trb.mp3",
       "gain": 1.2,
       "pan": -61
     },
     {
       "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/2LM9DzlrO1UhJUdCC19C9eoIkJMc9RgW",
-      "file": "2022-03-23_204452_I don't_Trpt.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-23T19:44:44.000Z/2022-03-23_204452_I don't_Trpt.mp3",
+      "filename": "2022-03-23_204452_I don't_Trpt.mp3",
       "gain": 1.2,
       "pan": -18
     },
     {
       "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/e1qetNxoam29I0eVC9hWBhK7a6DBlG4b",
-      "file": "2022-03-23_204452_I don't_Vox3.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-23T19:44:44.000Z/2022-03-23_204452_I don't_Vox3.mp3",
+      "filename": "2022-03-23_204452_I don't_Vox3.mp3",
       "gain": 1.5,
       "pan": 0
     }
   ],
   "time": {
-    "$date": "2022-03-23T19:44:44Z"
+    "$date": "2022-03-23T18:44:44Z"
   },
   "title": "I don't",
+  "type": "Rehearsal"
+},{
+  "_id": {
+    "$oid": "625193bca3e88cc69ac1b1e6"
+  },
+  "name": "2022-02-23_203253_Every Road",
+  "tracks": [
+    {
+      "title": "Bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_Bass.mp3",
+      "filename": "2022-02-23_203253_Every Road_Bass.mp3",
+      "gain": 1.100000023841858,
+      "pan": 0
+    },
+    {
+      "title": "D_B",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_D_B.mp3",
+      "filename": "2022-02-23_203253_Every Road_D_B.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "D_OH_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_D_OH_L.mp3",
+      "filename": "2022-02-23_203253_Every Road_D_OH_L.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "D_OH_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_D_OH_R.mp3",
+      "filename": "2022-02-23_203253_Every Road_D_OH_R.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Git",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_Git.mp3",
+      "filename": "2022-02-23_203253_Every Road_Git.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Keys_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_Keys_L.mp3",
+      "filename": "2022-02-23_203253_Every Road_Keys_L.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Keys_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_Keys_R.mp3",
+      "filename": "2022-02-23_203253_Every Road_Keys_R.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Sax",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_Sax.mp3",
+      "filename": "2022-02-23_203253_Every Road_Sax.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Trb",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_Trb.mp3",
+      "filename": "2022-02-23_203253_Every Road_Trb.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Trpt",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_Trpt.mp3",
+      "filename": "2022-02-23_203253_Every Road_Trpt.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Vox1",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_Vox1.mp3",
+      "filename": "2022-02-23_203253_Every Road_Vox1.mp3",
+      "gain": 1.5,
+      "pan": 0
+    },
+    {
+      "title": "Vox3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2022-02-23T19:32:32.000Z/2022-02-23_203253_Every Road_Vox3.mp3",
+      "filename": "2022-02-23_203253_Every Road_Vox3.mp3",
+      "gain": 0.7,
+      "pan": 0
+    }
+  ],
+  "time": {
+    "$date": "2022-02-23T18:32:32Z"
+  },
+  "title": "Every Road",
+  "type": "Rehearsal"
+},{
+  "_id": {
+    "$oid": "626e8212fc6b5f56564585bf"
+  },
+  "name": "2022-05-01_000000Digital_Dive",
+  "tracks": [
+    {
+      "title": "Bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-01T00:00:00.000Z/2022-05-01_000000Digital_Dive_Bass.mp3",
+      "filename": "2022-05-01_000000Digital_Dive_Bass.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Brass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-01T00:00:00.000Z/2022-05-01_000000Digital_Dive_Brass.mp3",
+      "filename": "2022-05-01_000000Digital_Dive_Brass.mp3",
+      "gain": 0.5,
+      "pan": 58
+    },
+    {
+      "title": "Click",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-01T00:00:00.000Z/2022-05-01_000000Digital_Dive_Click.mp3",
+      "filename": "2022-05-01_000000Digital_Dive_Click.mp3",
+      "gain": 0,
+      "pan": 0
+    },
+    {
+      "title": "ClickIn",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-01T00:00:00.000Z/2022-05-01_000000Digital_Dive_ClickIn.mp3",
+      "filename": "2022-05-01_000000Digital_Dive_ClickIn.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-01T00:00:00.000Z/2022-05-01_000000Digital_Dive_Drums.mp3",
+      "filename": "2022-05-01_000000Digital_Dive_Drums.mp3",
+      "gain": 0.4,
+      "pan": 0
+    },
+    {
+      "title": "Git",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-01T00:00:00.000Z/2022-05-01_000000Digital_Dive_Git.mp3",
+      "filename": "2022-05-01_000000Digital_Dive_Git.mp3",
+      "gain": 0.5,
+      "pan": -20
+    },
+    {
+      "title": "Keys",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-01T00:00:00.000Z/2022-05-01_000000Digital_Dive_Keys.mp3",
+      "filename": "2022-05-01_000000Digital_Dive_Keys.mp3",
+      "gain": 0.5,
+      "pan": -36
+    },
+    {
+      "title": "Vox1",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-01T00:00:00.000Z/2022-05-01_000000Digital_Dive_Vox1.mp3",
+      "filename": "2022-05-01_000000Digital_Dive_Vox1.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Vox2",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-01T00:00:00.000Z/2022-05-01_000000Digital_Dive_Vox2.mp3",
+      "filename": "2022-05-01_000000Digital_Dive_Vox2.mp3",
+      "gain": 0.5,
+      "pan": 19
+    },
+    {
+      "title": "Vox3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-01T00:00:00.000Z/2022-05-01_000000Digital_Dive_Vox3.mp3",
+      "filename": "2022-05-01_000000Digital_Dive_Vox3.mp3",
+      "gain": 0.5,
+      "pan": 33
+    }
+  ],
+  "time": {
+    "$date": "2022-04-30T22:00:00Z"
+  },
+  "title": "Dive",
+  "type": "Digital"
+},{
+  "_id": {
+    "$oid": "625193bda3e88cc69ac1b400"
+  },
+  "name": "2022-02-23_204026_Showgeschäft",
+  "tracks": [
+    {
+      "title": "Bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_Bass.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_Bass.mp3"
+    },
+    {
+      "title": "D_Bm",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_D_Bm.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_D_Bm.mp3"
+    },
+    {
+      "title": "D_OH_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_D_OH_L.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_D_OH_L.mp3"
+    },
+    {
+      "title": "D_OH_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_D_OH_R.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_D_OH_R.mp3"
+    },
+    {
+      "title": "Git",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_Git.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_Git.mp3"
+    },
+    {
+      "title": "Keys_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_Keys_L.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_Keys_L.mp3"
+    },
+    {
+      "title": "Keys_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_Keys_R.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_Keys_R.mp3"
+    },
+    {
+      "title": "Sax",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_Sax.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_Sax.mp3"
+    },
+    {
+      "title": "Trb",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_Trb.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_Trb.mp3"
+    },
+    {
+      "title": "Trpt",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_Trpt.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_Trpt.mp3"
+    },
+    {
+      "title": "Vox1",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_Vox1.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_Vox1.mp3"
+    },
+    {
+      "title": "Vox3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2022-02-23T19:40:40.000Z/2022-02-23_204026_Showgeschäft_Vox3.mp3",
+      "filename": "2022-02-23_204026_Showgeschäft_Vox3.mp3"
+    }
+  ],
+  "time": {
+    "$date": "2022-02-23T18:40:40Z"
+  },
+  "title": "Showgeschäft",
+  "type": "Rehearsal"
+},{
+  "_id": {
+    "$oid": "625193bda3e88cc69ac1b58e"
+  },
+  "name": "2022-02-23_210717_Snake Chapel",
+  "tracks": [
+    {
+      "title": "Bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_Bass.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_Bass.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "D_B",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_D_B.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_D_B.mp3",
+      "gain": 0.9,
+      "pan": 0
+    },
+    {
+      "title": "D_OH_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_D_OH_L.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_D_OH_L.mp3",
+      "gain": 0.2,
+      "pan": -89
+    },
+    {
+      "title": "D_OH_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_D_OH_R.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_D_OH_R.mp3",
+      "gain": 0.2,
+      "pan": 89
+    },
+    {
+      "title": "Git",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_Git.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_Git.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Keys_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_Keys_L.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_Keys_L.mp3",
+      "gain": 0.6,
+      "pan": 29
+    },
+    {
+      "title": "Keys_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_Keys_R.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_Keys_R.mp3",
+      "gain": 0.6,
+      "pan": 57
+    },
+    {
+      "title": "Sax",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_Sax.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_Sax.mp3",
+      "gain": 0.7,
+      "pan": -35
+    },
+    {
+      "title": "Trb",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_Trb.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_Trb.mp3",
+      "gain": 1.5,
+      "pan": -61
+    },
+    {
+      "title": "Trpt",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_Trpt.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_Trpt.mp3",
+      "gain": 1.5,
+      "pan": -18
+    },
+    {
+      "title": "Vox1",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_Vox1.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_Vox1.mp3",
+      "gain": 1.5,
+      "pan": 0
+    },
+    {
+      "title": "Vox3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Snake Chapel/2022-02-23T20:07:07.000Z/2022-02-23_210717_Snake Chapel_Vox3.mp3",
+      "filename": "2022-02-23_210717_Snake Chapel_Vox3.mp3",
+      "gain": 1,
+      "pan": 0
+    }
+  ],
+  "time": {
+    "$date": "2022-02-23T19:07:07Z"
+  },
+  "title": "Snake Chapel",
+  "type": "Rehearsal"
+},{
+  "_id": {
+    "$oid": "6298db192b12feb905d3276c"
+  },
+  "name": "2022-06-01_210325_I don't",
+  "tracks": [
+    {
+      "title": "Aux",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-01T21:03:03.000Z/2022-06-01_210325_I don't_Aux.mp3",
+      "filename": "2022-06-01_210325_I don't_Aux.mp3",
+      "gain": 0.8,
+      "pan": 0
+    },
+    {
+      "title": "Drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-01T21:03:03.000Z/2022-06-01_210325_I don't_Drums.mp3",
+      "filename": "2022-06-01_210325_I don't_Drums.mp3",
+      "gain": 0.8,
+      "pan": 0
+    },
+    {
+      "title": "Git",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-01T21:03:03.000Z/2022-06-01_210325_I don't_Git.mp3",
+      "filename": "2022-06-01_210325_I don't_Git.mp3",
+      "gain": 1.2,
+      "pan": 29
+    },
+    {
+      "title": "Sax",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-01T21:03:03.000Z/2022-06-01_210325_I don't_Sax.mp3",
+      "filename": "2022-06-01_210325_I don't_Sax.mp3",
+      "gain": 0.9,
+      "pan": -35
+    },
+    {
+      "title": "Trb",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-01T21:03:03.000Z/2022-06-01_210325_I don't_Trb.mp3",
+      "filename": "2022-06-01_210325_I don't_Trb.mp3",
+      "gain": 1,
+      "pan": -61
+    },
+    {
+      "title": "Trpt",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-01T21:03:03.000Z/2022-06-01_210325_I don't_Trpt.mp3",
+      "filename": "2022-06-01_210325_I don't_Trpt.mp3",
+      "gain": 0.9,
+      "pan": -18
+    },
+    {
+      "title": "Vox2",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-01T21:03:03.000Z/2022-06-01_210325_I don't_Vox2.mp3",
+      "filename": "2022-06-01_210325_I don't_Vox2.mp3",
+      "gain": 1.2,
+      "pan": -12
+    },
+    {
+      "title": "Vox3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-01T21:03:03.000Z/2022-06-01_210325_I don't_Vox3.mp3",
+      "filename": "2022-06-01_210325_I don't_Vox3.mp3",
+      "gain": 1.2,
+      "pan": 12
+    }
+  ],
+  "time": {
+    "$date": "2022-06-01T19:03:03Z"
+  },
+  "title": "I don't",
+  "type": "Rehearsal"
+},{
+  "_id": {
+    "$oid": "627d4478d9889c6d1ae86b9e"
+  },
+  "name": "2022-05-11_204451_Permanent",
+  "tracks": [
+    {
+      "title": "Aux_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_Aux_L.mp3",
+      "filename": "2022-05-11_204451_Permanent_Aux_L.mp3",
+      "gain": 0.30000001192092896,
+      "pan": -90
+    },
+    {
+      "title": "Aux_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_Aux_R.mp3",
+      "filename": "2022-05-11_204451_Permanent_Aux_R.mp3",
+      "gain": 0.30000001192092896,
+      "pan": 90
+    },
+    {
+      "title": "BDrum",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_BDrum.mp3",
+      "filename": "2022-05-11_204451_Permanent_BDrum.mp3",
+      "gain": 1.5,
+      "pan": 0
+    },
+    {
+      "title": "Git",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_Git.mp3",
+      "filename": "2022-05-11_204451_Permanent_Git.mp3",
+      "gain": 0.6000000238418579,
+      "pan": 29
+    },
+    {
+      "title": "Keys_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_Keys_L.mp3",
+      "filename": "2022-05-11_204451_Permanent_Keys_L.mp3",
+      "gain": 0.7,
+      "pan": 29
+    },
+    {
+      "title": "Keys_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_Keys_R.mp3",
+      "filename": "2022-05-11_204451_Permanent_Keys_R.mp3",
+      "gain": 0.7,
+      "pan": 57
+    },
+    {
+      "title": "OH_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_OH_L.mp3",
+      "filename": "2022-05-11_204451_Permanent_OH_L.mp3",
+      "gain": 0.5,
+      "pan": -90
+    },
+    {
+      "title": "OH_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_OH_R.mp3",
+      "filename": "2022-05-11_204451_Permanent_OH_R.mp3",
+      "gain": 0.5,
+      "pan": 89
+    },
+    {
+      "title": "Sax",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_Sax.mp3",
+      "filename": "2022-05-11_204451_Permanent_Sax.mp3",
+      "gain": 0.8999999761581421,
+      "pan": -35
+    },
+    {
+      "title": "Trb",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_Trb.mp3",
+      "filename": "2022-05-11_204451_Permanent_Trb.mp3",
+      "gain": 1,
+      "pan": -61
+    },
+    {
+      "title": "Trpt",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_Trpt.mp3",
+      "filename": "2022-05-11_204451_Permanent_Trpt.mp3",
+      "gain": 0.8999999761581421,
+      "pan": -18
+    },
+    {
+      "title": "Vox1",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_Vox1.mp3",
+      "filename": "2022-05-11_204451_Permanent_Vox1.mp3",
+      "gain": 1.5,
+      "pan": 0
+    },
+    {
+      "title": "Vox3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:44:44.000Z/2022-05-11_204451_Permanent_Vox3.mp3",
+      "filename": "2022-05-11_204451_Permanent_Vox3.mp3",
+      "gain": 0,
+      "pan": 32
+    }
+  ],
+  "time": {
+    "$date": "2022-05-11T18:44:44Z"
+  },
+  "title": "Permanent",
   "type": "Rehearsal"
 },{
   "_id": {
@@ -396,134 +649,73 @@
   "tracks": [
     {
       "title": "D_B",
-      "url": "https://audio.jukehost.co.uk/K2CRPoQ8lyrYxF7GDoctuPtvqahXDRAr",
-      "file": "2022-03-30_203803_I don't_D_B.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-30T18:38:38.000Z/2022-03-30_203803_I don't_D_B.mp3",
+      "filename": "2022-03-30_203803_I don't_D_B.mp3",
       "gain": 0.3,
       "pan": 0
     },
     {
       "title": "D_OH_L",
-      "url": "https://audio.jukehost.co.uk/JoBRubpGZky4DpxcVDzsd0C8VF1JT4kX",
-      "file": "2022-03-30_203803_I don't_D_OH_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-30T18:38:38.000Z/2022-03-30_203803_I don't_D_OH_L.mp3",
+      "filename": "2022-03-30_203803_I don't_D_OH_L.mp3",
       "gain": 0.2,
       "pan": -89
     },
     {
       "title": "D_OH_R",
-      "url": "https://audio.jukehost.co.uk/05tpUFD3ozipyhtDlNl0BCVA31jrp8CY",
-      "file": "2022-03-30_203803_I don't_D_OH_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-30T18:38:38.000Z/2022-03-30_203803_I don't_D_OH_R.mp3",
+      "filename": "2022-03-30_203803_I don't_D_OH_R.mp3",
       "gain": 0.2,
       "pan": 89
     },
     {
       "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/p74brrzH8cm624Y4Zj0YRavnkmYs9rrs",
-      "file": "2022-03-30_203803_I don't_Keys_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-30T18:38:38.000Z/2022-03-30_203803_I don't_Keys_L.mp3",
+      "filename": "2022-03-30_203803_I don't_Keys_L.mp3",
       "gain": 0.6,
       "pan": 29
     },
     {
       "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/RSE9eMgjMdJaUXhR0hbvvpPTf9lz5i5O",
-      "file": "2022-03-30_203803_I don't_Keys_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-30T18:38:38.000Z/2022-03-30_203803_I don't_Keys_R.mp3",
+      "filename": "2022-03-30_203803_I don't_Keys_R.mp3",
       "gain": 0.6,
       "pan": 57
     },
     {
       "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/BFG5LrPBQA5dZnZHblYEPXAaxN7uQZRV",
-      "file": "2022-03-30_203803_I don't_Sax.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-30T18:38:38.000Z/2022-03-30_203803_I don't_Sax.mp3",
+      "filename": "2022-03-30_203803_I don't_Sax.mp3",
       "gain": 0.6,
       "pan": -35
     },
     {
       "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/qQ67KXLWjcg4n2UCB1411RamaLxqkgmO",
-      "file": "2022-03-30_203803_I don't_Trb.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-30T18:38:38.000Z/2022-03-30_203803_I don't_Trb.mp3",
+      "filename": "2022-03-30_203803_I don't_Trb.mp3",
       "gain": 1,
       "pan": -61
     },
     {
       "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/7PppnJBkcSI1DpGS1xg4JtzMG8dQAg0w",
-      "file": "2022-03-30_203803_I don't_Trpt.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-30T18:38:38.000Z/2022-03-30_203803_I don't_Trpt.mp3",
+      "filename": "2022-03-30_203803_I don't_Trpt.mp3",
       "gain": 0.7,
       "pan": -18
     },
     {
       "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/634NLlcQqevC7YDSh6CD7koHJqQPxdLw",
-      "file": "2022-03-30_203803_I don't_Vox3.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-03-30T18:38:38.000Z/2022-03-30_203803_I don't_Vox3.mp3",
+      "filename": "2022-03-30_203803_I don't_Vox3.mp3",
       "gain": 1.5,
       "pan": 0
     }
   ],
   "time": {
-    "$date": "2022-03-30T18:38:38Z"
+    "$date": "2022-03-30T16:38:38Z"
   },
   "title": "I don't",
   "type": "Rehearsal"
-},{
-  "_id": {
-    "$oid": "625193bfa3e88cc69ac1bd11"
-  },
-  "name": "2022-04-02_000000Digital_I don't",
-  "tracks": [
-    {
-      "title": "Bass",
-      "gain": 0.5,
-      "pan": 0,
-      "file": "2022-04-02_000000Digital_I don't_Bass.mp3",
-      "url": "https://audio.jukehost.co.uk/wfMos9ZoRnpwzRMBaxy4kW6f5qkoJMZh"
-    },
-    {
-      "title": "Drums",
-      "url": "https://audio.jukehost.co.uk/IWXX0BIUCt4hBH618LBofHxxHfx84hXB",
-      "file": "2022-04-02_000000Digital_I don't_Drums.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Git",
-      "url": "https://audio.jukehost.co.uk/oaaxvtk0Db7HC9i6Dg0DwS6c28Y6igvf",
-      "file": "2022-04-02_000000Digital_I don't_Git.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Keys",
-      "url": "https://audio.jukehost.co.uk/Sj0fXi1A6JrjusrmJ9aanSs0hkLGqnRv",
-      "file": "2022-04-02_000000Digital_I don't_Keys.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/QHFiDqVX7QI7J46iLayR0hgyMTTtyKTs",
-      "file": "2022-04-02_000000Digital_I don't_Sax.mp3",
-      "gain": 0.4,
-      "pan": 0
-    },
-    {
-      "title": "Trbn",
-      "url": "https://audio.jukehost.co.uk/uY9Ydcs9vfQKZo9Yv9CRctTXFnGn484V",
-      "file": "2022-04-02_000000Digital_I don't_Trbn.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/BWtJiCxHtAjHrtM4wGPGV0o9WOgjibzr",
-      "file": "2022-04-02_000000Digital_I don't_Trpt.mp3",
-      "gain": 0.5,
-      "pan": 0
-    }
-  ],
-  "time": {
-    "$date": "2022-04-01T22:00:00Z"
-  },
-  "title": "I don't",
-  "type": "Digital"
 },{
   "_id": {
     "$oid": "625193bfa3e88cc69ac1bdf5"
@@ -532,259 +724,73 @@
   "tracks": [
     {
       "title": "Aux_L",
-      "url": "https://audio.jukehost.co.uk/n3YPHm0MzdBraSwBGzAr3nkdMcaFpE3E",
-      "file": "2022-04-06_211042_I don't_Aux_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-06T19:10:10.000Z/2022-04-06_211042_I don't_Aux_L.mp3",
+      "filename": "2022-04-06_211042_I don't_Aux_L.mp3",
       "gain": 0.5,
       "pan": -90
     },
     {
       "title": "Aux_R",
-      "url": "https://audio.jukehost.co.uk/SoTcxVNOo9JwL0IUnMWB4VOKgvz68vQB",
-      "file": "2022-04-06_211042_I don't_Aux_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-06T19:10:10.000Z/2022-04-06_211042_I don't_Aux_R.mp3",
+      "filename": "2022-04-06_211042_I don't_Aux_R.mp3",
       "gain": 0.5,
       "pan": 90
     },
     {
       "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/ARROLJ2oXsyDcJXjCnlCP4Nk9W6S3eGe",
-      "file": "2022-04-06_211042_I don't_Keys_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-06T19:10:10.000Z/2022-04-06_211042_I don't_Keys_L.mp3",
+      "filename": "2022-04-06_211042_I don't_Keys_L.mp3",
       "gain": 0.6,
       "pan": 29
     },
     {
       "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/NmanXHQHsQuzaY224NgLbKo6y85iafj8",
-      "file": "2022-04-06_211042_I don't_Keys_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-06T19:10:10.000Z/2022-04-06_211042_I don't_Keys_R.mp3",
+      "filename": "2022-04-06_211042_I don't_Keys_R.mp3",
       "gain": 0.6,
       "pan": 57
     },
     {
       "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/YRUHi6qRd5SVtEBFIo0UC8ern3iDBPgs",
-      "file": "2022-04-06_211042_I don't_Sax.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-06T19:10:10.000Z/2022-04-06_211042_I don't_Sax.mp3",
+      "filename": "2022-04-06_211042_I don't_Sax.mp3",
       "gain": 0.9,
       "pan": -35
     },
     {
       "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/b7cdiu7Q6zoIWYPdO1yVY5jknWJJMgLB",
-      "file": "2022-04-06_211042_I don't_Trb.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-06T19:10:10.000Z/2022-04-06_211042_I don't_Trb.mp3",
+      "filename": "2022-04-06_211042_I don't_Trb.mp3",
       "gain": 1,
       "pan": -61
     },
     {
       "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/YDKXYCsDMbsPTZZQwtSJlsNsjopsf69n",
-      "file": "2022-04-06_211042_I don't_Trpt.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-06T19:10:10.000Z/2022-04-06_211042_I don't_Trpt.mp3",
+      "filename": "2022-04-06_211042_I don't_Trpt.mp3",
       "gain": 0.7,
       "pan": -18
     },
     {
       "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/wVliZigW8Q7wOWF4Z581dSvyLyTRYbsq",
-      "file": "2022-04-06_211042_I don't_Vox1.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-06T19:10:10.000Z/2022-04-06_211042_I don't_Vox1.mp3",
+      "filename": "2022-04-06_211042_I don't_Vox1.mp3",
       "gain": 0.9,
       "pan": 25
     },
     {
       "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/fOYZUmKMxllWdBDbLQqxJEiXzNCCBI48",
-      "file": "2022-04-06_211042_I don't_Vox3.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-06T19:10:10.000Z/2022-04-06_211042_I don't_Vox3.mp3",
+      "filename": "2022-04-06_211042_I don't_Vox3.mp3",
       "gain": 1.5,
       "pan": 0
     }
   ],
   "time": {
-    "$date": "2022-04-06T19:10:10Z"
+    "$date": "2022-04-06T17:10:10Z"
   },
   "title": "I don't",
   "type": "Rehearsal"
-},{
-  "_id": {
-    "$oid": "625193c0a3e88cc69ac1bf11"
-  },
-  "name": "2022-04-06_214239_Dive",
-  "tracks": [
-    {
-      "title": "Aux_L",
-      "url": "https://audio.jukehost.co.uk/oh4KWJTELhgPQIiSFQZ0UFtVEeRY1I4W",
-      "file": "2022-04-06_214239_Dive_Aux_L.mp3",
-      "gain": 0.5,
-      "pan": -90
-    },
-    {
-      "title": "Aux_R",
-      "url": "https://audio.jukehost.co.uk/pr3Z0ZGjFa2AtYwzE3h2PpYGLGd60XaO",
-      "file": "2022-04-06_214239_Dive_Aux_R.mp3",
-      "gain": 0.5,
-      "pan": 90
-    },
-    {
-      "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/8GH7R04EJ4RmHqeKqvVNphw6tv59aFBG",
-      "file": "2022-04-06_214239_Dive_Keys_L.mp3",
-      "gain": 0.6,
-      "pan": 29
-    },
-    {
-      "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/jlfj91dHOmn2KLNXGWUfWlnfTzQW5KEh",
-      "file": "2022-04-06_214239_Dive_Keys_R.mp3",
-      "gain": 0.6,
-      "pan": 57
-    },
-    {
-      "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/Up0gYov8P81bgpChYpKFDNoym4anXbZR",
-      "file": "2022-04-06_214239_Dive_Sax.mp3",
-      "gain": 0.9,
-      "pan": -35
-    },
-    {
-      "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/hocIBq59NPpPF4SKf3x7pt1tmMFTrb7a",
-      "file": "2022-04-06_214239_Dive_Trb.mp3",
-      "gain": 1,
-      "pan": -61
-    },
-    {
-      "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/5qISqxuH4IRyfLot8GOStmutaF6JXOM2",
-      "file": "2022-04-06_214239_Dive_Trpt.mp3",
-      "gain": 0.7,
-      "pan": -18
-    },
-    {
-      "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/aGO1Ox4w5LuCWbOyBPBi4Mpd3ehHgEdS",
-      "file": "2022-04-06_214239_Dive_Vox1.mp3",
-      "gain": 1.5,
-      "pan": 0
-    },
-    {
-      "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/mPAWyAZseEAbEq6ugKrPC40YvVEmX65Q",
-      "file": "2022-04-06_214239_Dive_Vox3.mp3",
-      "gain": 1.2,
-      "pan": 32
-    }
-  ],
-  "time": {
-    "$date": "2022-04-06T19:42:42Z"
-  },
-  "title": "Dive",
-  "type": "Rehearsal"
-},{
-  "_id": {
-    "$oid": "625a6369563481bf61f25f80"
-  },
-  "name": "2020-01-01_000000Split_Rubberband Man",
-  "tracks": [
-    {
-      "title": "bass",
-      "url": "https://audio.jukehost.co.uk/Ku2rWTWo77VtgdthP5TOSldw7TzRvbiX",
-      "file": "2020-01-01_000000Split_Rubberband Man_bass.mp3"
-    },
-    {
-      "title": "drums",
-      "url": "https://audio.jukehost.co.uk/sEZCpTfFbLQJ6xiliBROoXMOzR3h687G",
-      "file": "2020-01-01_000000Split_Rubberband Man_drums.mp3"
-    },
-    {
-      "title": "other",
-      "url": "https://audio.jukehost.co.uk/z0IR3e3LsvyMtzHHSCoazMsJTzkmlCSG",
-      "file": "2020-01-01_000000Split_Rubberband Man_other.mp3"
-    },
-    {
-      "title": "piano",
-      "url": "https://audio.jukehost.co.uk/109PkRF8ftHFeTo1JiRI2QZlhwmadGg6",
-      "file": "2020-01-01_000000Split_Rubberband Man_piano.mp3"
-    },
-    {
-      "title": "vocals",
-      "url": "https://audio.jukehost.co.uk/C41JKJIqVdIyN7lxuw222yins7nNZeNn",
-      "file": "2020-01-01_000000Split_Rubberband Man_vocals.mp3"
-    }
-  ],
-  "time": {
-    "$date": "2020-01-01T00:00:00Z"
-  },
-  "title": "Rubberband Man",
-  "type": "Split"
-},{
-  "_id": {
-    "$oid": "625a7306563481bf6116e4c5"
-  },
-  "name": "2020-01-01_000000Split_Told You The First Time",
-  "tracks": [
-    {
-      "title": "bass",
-      "url": "https://audio.jukehost.co.uk/8lZ3pebw61L0O7PiGGymZ9gVZwTjuMUd",
-      "file": "2020-01-01_000000Split_Told You The First Time_bass.mp3"
-    },
-    {
-      "title": "drums",
-      "url": "https://audio.jukehost.co.uk/1nR2LTBmaYlViwWZmMvdSmNTMejbAQ3R",
-      "file": "2020-01-01_000000Split_Told You The First Time_drums.mp3"
-    },
-    {
-      "title": "other",
-      "url": "https://audio.jukehost.co.uk/LyFqaLcHHxmmer9dAarGuYrw4GYYiYCT",
-      "file": "2020-01-01_000000Split_Told You The First Time_other.mp3"
-    },
-    {
-      "title": "piano",
-      "url": "https://audio.jukehost.co.uk/V46Q8cQoOlSorQ434n3Fx93YOo54Ey2c",
-      "file": "2020-01-01_000000Split_Told You The First Time_piano.mp3"
-    },
-    {
-      "title": "vocals",
-      "url": "https://audio.jukehost.co.uk/UaERYb1DkSeWRhlIQfDRcSfP10nRmCiF",
-      "file": "2020-01-01_000000Split_Told You The First Time_vocals.mp3"
-    }
-  ],
-  "time": {
-    "$date": "2020-01-01T00:00:00Z"
-  },
-  "title": "Told You The First Time",
-  "type": "Split"
-},{
-  "_id": {
-    "$oid": "625a7306563481bf6116e50e"
-  },
-  "name": "2020-01-01_000000Split_Showgeschäft",
-  "tracks": [
-    {
-      "title": "bass",
-      "url": "https://audio.jukehost.co.uk/BeUIHQGXZ85NTrvG3163kTEy7Ecsb4lu",
-      "file": "2020-01-01_000000Split_Showgeschäft_bass.mp3"
-    },
-    {
-      "title": "drums",
-      "url": "https://audio.jukehost.co.uk/nQplbKEAZ05gIUM1nFl1jzEtY0TkRNfr",
-      "file": "2020-01-01_000000Split_Showgeschäft_drums.mp3"
-    },
-    {
-      "title": "other",
-      "url": "https://audio.jukehost.co.uk/nMcPd7qzRRd09MXbCBxT6dBejdRyA1UG",
-      "file": "2020-01-01_000000Split_Showgeschäft_other.mp3"
-    },
-    {
-      "title": "piano",
-      "url": "https://audio.jukehost.co.uk/PMfhLUKlgtulnznaohfg4fTmsslaWmQC",
-      "file": "2020-01-01_000000Split_Showgeschäft_piano.mp3"
-    },
-    {
-      "title": "vocals",
-      "url": "https://audio.jukehost.co.uk/27YGI1hqKEOMeKGVrnrDyF1iVW4kBg2F",
-      "file": "2020-01-01_000000Split_Showgeschäft_vocals.mp3"
-    }
-  ],
-  "time": {
-    "$date": "2020-01-01T00:00:00Z"
-  },
-  "title": "Showgeschäft",
-  "type": "Split"
 },{
   "_id": {
     "$oid": "625a7306563481bf6116e546"
@@ -793,485 +799,140 @@
   "tracks": [
     {
       "title": "bass",
-      "url": "https://audio.jukehost.co.uk/3xDRCG8xAj062q9MkIBT4QMlwyBAaFH0",
-      "file": "2020-01-01_000000Split_As Long As I Have You_bass.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/As Long As I Have You/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_As Long As I Have You_bass.mp3",
+      "filename": "2020-01-01_000000Split_As Long As I Have You_bass.mp3"
     },
     {
       "title": "drums",
-      "url": "https://audio.jukehost.co.uk/30p1em9HRv1CbUnx9bnFBV1Sc8nCIJ7k",
-      "file": "2020-01-01_000000Split_As Long As I Have You_drums.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/As Long As I Have You/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_As Long As I Have You_drums.mp3",
+      "filename": "2020-01-01_000000Split_As Long As I Have You_drums.mp3"
     },
     {
       "title": "other",
-      "url": "https://audio.jukehost.co.uk/IiYWb6zkGt2onrXjxPKagVKUq4Mn6Kvo",
-      "file": "2020-01-01_000000Split_As Long As I Have You_other.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/As Long As I Have You/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_As Long As I Have You_other.mp3",
+      "filename": "2020-01-01_000000Split_As Long As I Have You_other.mp3"
     },
     {
       "title": "piano",
-      "url": "https://audio.jukehost.co.uk/Wx5FXp76HvXJPcp94fuxGVRqVRoOtvsH",
-      "file": "2020-01-01_000000Split_As Long As I Have You_piano.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/As Long As I Have You/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_As Long As I Have You_piano.mp3",
+      "filename": "2020-01-01_000000Split_As Long As I Have You_piano.mp3"
     },
     {
       "title": "vocals",
-      "url": "https://audio.jukehost.co.uk/Bh7nNgpS6l42CIQlrQa00fPF0ERokChi",
-      "file": "2020-01-01_000000Split_As Long As I Have You_vocals.mp3"
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/As Long As I Have You/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_As Long As I Have You_vocals.mp3",
+      "filename": "2020-01-01_000000Split_As Long As I Have You_vocals.mp3"
     }
   ],
   "time": {
-    "$date": "2020-01-01T00:00:00Z"
+    "$date": "2019-12-31T23:00:00Z"
   },
   "title": "As Long As I Have You",
   "type": "Split"
 },{
   "_id": {
-    "$oid": "625a7306563481bf6116e5b4"
+    "$oid": "62a0d4e47f1107aee14a3881"
   },
-  "name": "2020-01-01_000000Split_Hanging On",
-  "tracks": [
-    {
-      "title": "bass",
-      "url": "https://audio.jukehost.co.uk/mi1Rdo5ijVsnN2wwy0eerbtWarT5RzN2",
-      "file": "2020-01-01_000000Split_Hanging On_bass.mp3"
-    },
-    {
-      "title": "drums",
-      "url": "https://audio.jukehost.co.uk/4a3TTuQMzW2e5PTpnkvAzLJCaQVadxWB",
-      "file": "2020-01-01_000000Split_Hanging On_drums.mp3"
-    },
-    {
-      "title": "other",
-      "url": "https://audio.jukehost.co.uk/uOVHhKj6lCIqimZHgDP1lpAFFyPuCUHO",
-      "file": "2020-01-01_000000Split_Hanging On_other.mp3"
-    },
-    {
-      "title": "piano",
-      "url": "https://audio.jukehost.co.uk/FWCjuMHpbKaCIlcOx7bA8p5ItT5cl7IX",
-      "file": "2020-01-01_000000Split_Hanging On_piano.mp3"
-    },
-    {
-      "title": "vocals",
-      "url": "https://audio.jukehost.co.uk/JP8ev0TbBDWUYRQXcq7973yqj5oTTDXR",
-      "file": "2020-01-01_000000Split_Hanging On_vocals.mp3"
-    }
-  ],
-  "time": {
-    "$date": "2020-01-01T00:00:00Z"
-  },
-  "title": "Hanging On",
-  "type": "Split"
-},{
-  "_id": {
-    "$oid": "625a7307563481bf6116e5d6"
-  },
-  "name": "2020-01-01_000000Split_Every Road",
-  "tracks": [
-    {
-      "title": "bass",
-      "url": "https://audio.jukehost.co.uk/gqhXkcj7a4woeWF8mPFfNsgeQ0mcofdL",
-      "file": "2020-01-01_000000Split_Every Road_bass.mp3"
-    },
-    {
-      "title": "drums",
-      "url": "https://audio.jukehost.co.uk/D9YzVAenQhQYaAP7CWlzpoTj7ZC187yh",
-      "file": "2020-01-01_000000Split_Every Road_drums.mp3"
-    },
-    {
-      "title": "other",
-      "url": "https://audio.jukehost.co.uk/4dM5NrTPPhdYyOoPafc9gZ54iY8M9Ixa",
-      "file": "2020-01-01_000000Split_Every Road_other.mp3"
-    },
-    {
-      "title": "piano",
-      "url": "https://audio.jukehost.co.uk/MBu30N3i1VtkjgWmIHLcDs5BVv9Q7ned",
-      "file": "2020-01-01_000000Split_Every Road_piano.mp3"
-    },
-    {
-      "title": "vocals",
-      "url": "https://audio.jukehost.co.uk/Ul84soId36BhwHv1UAM6oh3MhXwhyge9",
-      "file": "2020-01-01_000000Split_Every Road_vocals.mp3"
-    }
-  ],
-  "time": {
-    "$date": "2020-01-01T00:00:00Z"
-  },
-  "title": "Every Road",
-  "type": "Split"
-},{
-  "_id": {
-    "$oid": "625a7307563481bf6116e60f"
-  },
-  "name": "2020-01-01_000000Split_I'll be your Doctor",
-  "tracks": [
-    {
-      "title": "bass",
-      "url": "https://audio.jukehost.co.uk/6KVB12wzaDcT8fWLOdD64pqclaHZFobY",
-      "file": "2020-01-01_000000Split_I'll be your Doctor_bass.mp3"
-    },
-    {
-      "title": "drums",
-      "url": "https://audio.jukehost.co.uk/LTNS3cDsnMVj9Q751Cc71aFU8e7G3tDG",
-      "file": "2020-01-01_000000Split_I'll be your Doctor_drums.mp3"
-    },
-    {
-      "title": "other",
-      "url": "https://audio.jukehost.co.uk/mxdyc93reyvSzIJGTxVjbGY1OAoz0qCB",
-      "file": "2020-01-01_000000Split_I'll be your Doctor_other.mp3"
-    },
-    {
-      "title": "piano",
-      "url": "https://audio.jukehost.co.uk/wGWjBg8gF5aAaOPTGFlwo6ttCOeK6zm7",
-      "file": "2020-01-01_000000Split_I'll be your Doctor_piano.mp3"
-    },
-    {
-      "title": "vocals",
-      "url": "https://audio.jukehost.co.uk/csqtG7OTNn2vPLkPEt0S7D6LMwlAUmsu",
-      "file": "2020-01-01_000000Split_I'll be your Doctor_vocals.mp3"
-    }
-  ],
-  "time": {
-    "$date": "2020-01-01T00:00:00Z"
-  },
-  "title": "I'll be your Doctor",
-  "type": "Split"
-},{
-  "_id": {
-    "$oid": "625a7307563481bf6116e685"
-  },
-  "name": "2020-01-01_000000Split_Lands End",
-  "tracks": [
-    {
-      "title": "bass",
-      "url": "https://audio.jukehost.co.uk/JJmMDerriCVGKOnntYf9MdEedNDiWT0I",
-      "file": "2020-01-01_000000Split_Lands End_bass.mp3"
-    },
-    {
-      "title": "drums",
-      "url": "https://audio.jukehost.co.uk/AdjXT57NKxDrzf5zHrL1N95SMIHkwq4M",
-      "file": "2020-01-01_000000Split_Lands End_drums.mp3"
-    },
-    {
-      "title": "other",
-      "url": "https://audio.jukehost.co.uk/8YeDdU5AWEJlJCcRua27hTiCosE7lLsP",
-      "file": "2020-01-01_000000Split_Lands End_other.mp3"
-    },
-    {
-      "title": "piano",
-      "url": "https://audio.jukehost.co.uk/ywtQpjuTPALu5RL3N443TCvzvn0NlBU6",
-      "file": "2020-01-01_000000Split_Lands End_piano.mp3"
-    },
-    {
-      "title": "vocals",
-      "url": "https://audio.jukehost.co.uk/A21Mkfa1A8xFjN9EyvXRZEdP9IXrOYkF",
-      "file": "2020-01-01_000000Split_Lands End_vocals.mp3"
-    }
-  ],
-  "time": {
-    "$date": "2020-01-01T00:00:00Z"
-  },
-  "title": "Lands End",
-  "type": "Split"
-},{
-  "_id": {
-    "$oid": "625a7307563481bf6116e79d"
-  },
-  "name": "2020-01-01_000000Split_Good Time",
-  "tracks": [
-    {
-      "title": " drums",
-      "url": "https://audio.jukehost.co.uk/yKMcHB7u2UgvKa23EAldsEdODDry0qWR",
-      "file": "2020-01-01_000000Split_Good Time_ drums.mp3",
-      "gain": 1.5,
-      "pan": 0
-    },
-    {
-      "title": "bass",
-      "url": "https://audio.jukehost.co.uk/MOGOw5Ceiisz8xEUUWZ8qoNnCi9vrwLk",
-      "file": "2020-01-01_000000Split_Good Time_bass.mp3",
-      "gain": 0,
-      "pan": -43
-    },
-    {
-      "title": "other",
-      "url": "https://audio.jukehost.co.uk/PRiWWgSYgRqziPtWIR1Ma27u5loEMDDE",
-      "file": "2020-01-01_000000Split_Good Time_other.mp3",
-      "gain": 1.5,
-      "pan": -48
-    },
-    {
-      "title": "piano",
-      "url": "https://audio.jukehost.co.uk/teicmP8uvbPwsdg9ZtKJCwGEF9B15j0H",
-      "file": "2020-01-01_000000Split_Good Time_piano.mp3",
-      "gain": 0,
-      "pan": -52
-    },
-    {
-      "title": "vocals",
-      "url": "https://audio.jukehost.co.uk/AgSt3vNpvP8pygPV99q4qNJn1Yk1SEAa",
-      "file": "2020-01-01_000000Split_Good Time_vocals.mp3",
-      "gain": 1.5,
-      "pan": 0
-    }
-  ],
-  "time": {
-    "$date": "2020-01-01T00:00:00Z"
-  },
-  "title": "Good Time",
-  "type": "Split"
-},{
-  "_id": {
-    "$oid": "625a7308563481bf6116e8f3"
-  },
-  "name": "2020-01-01_000000Split_Move your Feet",
-  "tracks": [
-    {
-      "title": "bass",
-      "url": "https://audio.jukehost.co.uk/mOo6XbkPW9uCbgUm8u3dfVO27k49RyE9",
-      "file": "2020-01-01_000000Split_Move your Feet_bass.mp3"
-    },
-    {
-      "title": "drums",
-      "url": "https://audio.jukehost.co.uk/ZewhjUVqq8M7rKxD8a8PYfvTc6L67y9X",
-      "file": "2020-01-01_000000Split_Move your Feet_drums.mp3"
-    },
-    {
-      "title": "other",
-      "url": "https://audio.jukehost.co.uk/h5z2mzwAu19HHPPUMFnxZPSNa1jfdn9W",
-      "file": "2020-01-01_000000Split_Move your Feet_other.mp3"
-    },
-    {
-      "title": "piano",
-      "url": "https://audio.jukehost.co.uk/v5tyqhN0zoeZzo830xRxP1vwBA37G4wc",
-      "file": "2020-01-01_000000Split_Move your Feet_piano.mp3"
-    },
-    {
-      "title": "vocals",
-      "url": "https://audio.jukehost.co.uk/F7hm7XuhvrraJOls0I5BsGcinICI8IEc",
-      "file": "2020-01-01_000000Split_Move your Feet_vocals.mp3"
-    }
-  ],
-  "time": {
-    "$date": "2020-01-01T00:00:00Z"
-  },
-  "title": "Move your Feet",
-  "type": "Split"
-},{
-  "_id": {
-    "$oid": "626e8212fc6b5f56564585bf"
-  },
-  "name": "2022-05-01_000000Digital_Dive",
+  "name": "2022-05-29_000000Digital_I don't",
   "tracks": [
     {
       "title": "Bass",
-      "url": "https://audio.jukehost.co.uk/4eNT1cPaRL7GmG52x6IgdWW3EVnoz5cz",
-      "file": "2022-05-01_000000Digital_Dive_Bass.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Brass",
-      "url": "https://audio.jukehost.co.uk/oOHFYptC9VWE45VzOzlpFwEKqLv1Qj67",
-      "file": "2022-05-01_000000Digital_Dive_Brass.mp3",
-      "gain": 0.5,
-      "pan": 58
-    },
-    {
-      "title": "Click",
-      "url": "https://audio.jukehost.co.uk/JA8Vm6vxxjDeMwmdpuJiSFZHhkiCW3eh",
-      "file": "2022-05-01_000000Digital_Dive_Click.mp3",
-      "gain": 0,
-      "pan": 0
-    },
-    {
-      "title": "ClickIn",
-      "url": "https://audio.jukehost.co.uk/DKQKtrDB5GxeZXgnN4S8lkFOrlBr041U",
-      "file": "2022-05-01_000000Digital_Dive_ClickIn.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-29T00:00:00.000Z/2022-05-29_000000Digital_I don't_Bass.mp3",
+      "filename": "2022-05-29_000000Digital_I don't_Bass.mp3",
       "gain": 0.5,
       "pan": 0
     },
     {
       "title": "Drums",
-      "url": "https://audio.jukehost.co.uk/0nfPPbqzoqQxjbN8wpOvDpISXfRevfdl",
-      "file": "2022-05-01_000000Digital_Dive_Drums.mp3",
-      "gain": 0.4,
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-29T00:00:00.000Z/2022-05-29_000000Digital_I don't_Drums.mp3",
+      "filename": "2022-05-29_000000Digital_I don't_Drums.mp3",
+      "gain": 0.5,
       "pan": 0
     },
     {
       "title": "Git",
-      "url": "https://audio.jukehost.co.uk/RNEWFJwKWkbCh8vVQ3UmI2NpdJ3sD1AX",
-      "file": "2022-05-01_000000Digital_Dive_Git.mp3",
-      "gain": 0.5,
-      "pan": -20
-    },
-    {
-      "title": "Keys",
-      "url": "https://audio.jukehost.co.uk/LrQT83I8b6qZH4RVb6BbzLDThYmuLOFz",
-      "file": "2022-05-01_000000Digital_Dive_Keys.mp3",
-      "gain": 0.5,
-      "pan": -36
-    },
-    {
-      "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/RrKSDoB05CcTZSRiC8kx3vIz8rRUBLZa",
-      "file": "2022-05-01_000000Digital_Dive_Vox1.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-29T00:00:00.000Z/2022-05-29_000000Digital_I don't_Git.mp3",
+      "filename": "2022-05-29_000000Digital_I don't_Git.mp3",
       "gain": 0.5,
       "pan": 0
     },
     {
-      "title": "Vox2",
-      "url": "https://audio.jukehost.co.uk/OMmPKARXvN7eyMsZeCO6TTBWWFkzuw1e",
-      "file": "2022-05-01_000000Digital_Dive_Vox2.mp3",
+      "title": "Keys",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-29T00:00:00.000Z/2022-05-29_000000Digital_I don't_Keys.mp3",
+      "filename": "2022-05-29_000000Digital_I don't_Keys.mp3",
       "gain": 0.5,
-      "pan": 19
+      "pan": 0
     },
     {
-      "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/JgE2iYsxILnzziY5HuRygSLdsily79m6",
-      "file": "2022-05-01_000000Digital_Dive_Vox3.mp3",
-      "gain": 0.5,
-      "pan": 33
-    }
-  ],
-  "time": {
-    "$date": "2022-05-01T00:00:00Z"
-  },
-  "title": "Dive",
-  "type": "Digital"
-},{
-  "_id": {
-    "$oid": "626fef4efc6b5f5656d794f5"
-  },
-  "name": "2022-05-02_000000Digital_Permanent",
-  "tracks": [
-    {
-      "title": "Bass",
-      "url": "https://audio.jukehost.co.uk/ZUxv8CT9hNM2pTsP2pPDactGo6Pp7JBh",
-      "file": "2022-05-02_000000Digital_Permanent_Bass.mp3",
+      "title": "Sax",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-29T00:00:00.000Z/2022-05-29_000000Digital_I don't_Sax.mp3",
+      "filename": "2022-05-29_000000Digital_I don't_Sax.mp3",
       "gain": 0.4,
       "pan": 0
     },
     {
-      "title": "Brass",
-      "url": "https://audio.jukehost.co.uk/BeD3O5OGWd5e2xawYbolGRmd1dYIpRny",
-      "file": "2022-05-02_000000Digital_Permanent_Brass.mp3",
+      "title": "Trb",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-29T00:00:00.000Z/2022-05-29_000000Digital_I don't_Trb.mp3",
+      "filename": "2022-05-29_000000Digital_I don't_Trb.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Trpt",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-29T00:00:00.000Z/2022-05-29_000000Digital_I don't_Trpt.mp3",
+      "filename": "2022-05-29_000000Digital_I don't_Trpt.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Vox",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-29T00:00:00.000Z/2022-05-29_000000Digital_I don't_Vox.mp3",
+      "filename": "2022-05-29_000000Digital_I don't_Vox.mp3",
       "gain": 0.6,
-      "pan": 58
-    },
-    {
-      "title": "Click",
-      "url": "https://audio.jukehost.co.uk/yLGbVM3o4hfSvfVLzw8u3q2BsT9dpg1Z",
-      "file": "2022-05-02_000000Digital_Permanent_Click.mp3",
-      "gain": 0,
-      "pan": 0
-    },
-    {
-      "title": "ClickIn",
-      "url": "https://audio.jukehost.co.uk/SSFK1TnLzqXCwQVfB2J4hjLOW9Na7so6",
-      "file": "2022-05-02_000000Digital_Permanent_ClickIn.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Drums",
-      "url": "https://audio.jukehost.co.uk/AxEYJ6ecZy1EZz6pnpe4QDdn1ZnXDgj7",
-      "file": "2022-05-02_000000Digital_Permanent_Drums.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Git",
-      "url": "https://audio.jukehost.co.uk/XvCVSDL9Rif0UEwUQ7kSehX6TrMuzsHN",
-      "file": "2022-05-02_000000Digital_Permanent_Git.mp3",
-      "gain": 0.5,
-      "pan": -20
-    },
-    {
-      "title": "Keys",
-      "url": "https://audio.jukehost.co.uk/yFgCJQWlumbgl9F9Uuj49LG2U5TM7MUU",
-      "file": "2022-05-02_000000Digital_Permanent_Keys.mp3",
-      "gain": 0.5,
-      "pan": -36
-    },
-    {
-      "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/2xTAgIoqh4CUxsUlYc04xrWbwXi046dw",
-      "file": "2022-05-02_000000Digital_Permanent_Vox1.mp3",
-      "gain": 0.5,
       "pan": 0
     }
   ],
   "time": {
-    "$date": "2022-05-02T00:00:00Z"
+    "$date": "2022-05-28T22:00:00Z"
   },
-  "title": "Permanent",
+  "title": "I don't",
   "type": "Digital"
 },{
   "_id": {
-    "$oid": "627922cc799e1447ee9bd89c"
+    "$oid": "625a6369563481bf61f25f80"
   },
-  "name": "2022-05-09_000000Digital_You Up To",
+  "name": "2020-01-01_000000Split_Rubberband Man",
   "tracks": [
     {
-      "title": "Bass",
-      "url": "https://audio.jukehost.co.uk/rfcDOQs4T0aPNkVQjJ35bgzg4RKnlmPO",
-      "file": "2022-05-09_000000Digital_You Up To_Bass.mp3",
-      "gain": 0.4,
-      "pan": 0
+      "title": "bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Rubberband Man/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Rubberband Man_bass.mp3",
+      "filename": "2020-01-01_000000Split_Rubberband Man_bass.mp3"
     },
     {
-      "title": "Brass",
-      "url": "https://audio.jukehost.co.uk/1NHjN8V3Jgx4sRk3f60I7awCQagIkLGs",
-      "file": "2022-05-09_000000Digital_You Up To_Brass.mp3",
-      "gain": 0.6,
-      "pan": 58
+      "title": "drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Rubberband Man/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Rubberband Man_drums.mp3",
+      "filename": "2020-01-01_000000Split_Rubberband Man_drums.mp3"
     },
     {
-      "title": "Click",
-      "url": "https://audio.jukehost.co.uk/toAlCfCXLqruEu76xuAGfXGUeupFVRYh",
-      "file": "2022-05-09_000000Digital_You Up To_Click.mp3",
-      "gain": 0,
-      "pan": 0
+      "title": "other",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Rubberband Man/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Rubberband Man_other.mp3",
+      "filename": "2020-01-01_000000Split_Rubberband Man_other.mp3"
     },
     {
-      "title": "ClickIn",
-      "url": "https://audio.jukehost.co.uk/syATEQCUWvlCwOeS6ncoAxnOEcjcQtU8",
-      "file": "2022-05-09_000000Digital_You Up To_ClickIn.mp3",
-      "gain": 0.5,
-      "pan": 0
+      "title": "piano",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Rubberband Man/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Rubberband Man_piano.mp3",
+      "filename": "2020-01-01_000000Split_Rubberband Man_piano.mp3"
     },
     {
-      "title": "Drums",
-      "url": "https://audio.jukehost.co.uk/MjVhnri86tESD2KpsZkKsWKWNQ1BXpDj",
-      "file": "2022-05-09_000000Digital_You Up To_Drums.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Git",
-      "url": "https://audio.jukehost.co.uk/IF9kaiXZHvHHhJ9w4pwE8StgNLFxtBVH",
-      "file": "2022-05-09_000000Digital_You Up To_Git.mp3",
-      "gain": 0.5,
-      "pan": -20
-    },
-    {
-      "title": "Keys",
-      "url": "https://audio.jukehost.co.uk/jJbrAFKeHS6fhfuRVcWtPKUZ6Ulkr2jY",
-      "file": "2022-05-09_000000Digital_You Up To_Keys.mp3",
-      "gain": 0.5,
-      "pan": -36
-    },
-    {
-      "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/0frJuyZCAymOAt6kuRPpYSb5P9EIIH6w",
-      "file": "2022-05-09_000000Digital_You Up To_Vox1.mp3",
-      "gain": 0.3,
-      "pan": 0
+      "title": "vocals",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Rubberband Man/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Rubberband Man_vocals.mp3",
+      "filename": "2020-01-01_000000Split_Rubberband Man_vocals.mp3"
     }
   ],
   "time": {
-    "$date": "2022-05-09T00:00:00Z"
+    "$date": "2019-12-31T23:00:00Z"
   },
-  "title": "You Up To",
-  "type": "Digital"
+  "title": "Rubberband Man",
+  "type": "Split"
 },{
   "_id": {
     "$oid": "627d4477d9889c6d1ae869e9"
@@ -1280,98 +941,98 @@
   "tracks": [
     {
       "title": "Aux_L",
-      "url": "https://audio.jukehost.co.uk/k5WAo2CNGtbo6tQVHW5j4b7ErKfdvuuL",
-      "file": "2022-05-11_201903_I don't_Aux_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_Aux_L.mp3",
+      "filename": "2022-05-11_201903_I don't_Aux_L.mp3",
       "gain": 0.5,
       "pan": -90
     },
     {
       "title": "Aux_R",
-      "url": "https://audio.jukehost.co.uk/GvorJgTTyKm4Xp1881MykjX5Zv6PFj55",
-      "file": "2022-05-11_201903_I don't_Aux_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_Aux_R.mp3",
+      "filename": "2022-05-11_201903_I don't_Aux_R.mp3",
       "gain": 0.5,
       "pan": 90
     },
     {
       "title": "BDrum",
-      "url": "https://audio.jukehost.co.uk/vJrOW5t8QUbw4riexpSX8GDvu4yVYoEn",
-      "file": "2022-05-11_201903_I don't_BDrum.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_BDrum.mp3",
+      "filename": "2022-05-11_201903_I don't_BDrum.mp3",
       "gain": 1.5,
       "pan": 0
     },
     {
       "title": "Git",
-      "url": "https://audio.jukehost.co.uk/UDRSw8Axqov8o9dMOVTZKlXAI9pyzAPB",
-      "file": "2022-05-11_201903_I don't_Git.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_Git.mp3",
+      "filename": "2022-05-11_201903_I don't_Git.mp3",
       "gain": 1,
       "pan": 29
     },
     {
       "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/p284MUBWL91mBmvPSUEKHyH6JeQyyznp",
-      "file": "2022-05-11_201903_I don't_Keys_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_Keys_L.mp3",
+      "filename": "2022-05-11_201903_I don't_Keys_L.mp3",
       "gain": 0.6,
       "pan": 29
     },
     {
       "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/aQTQuWaCwSRaeoByC70SVImObIGyM2Bg",
-      "file": "2022-05-11_201903_I don't_Keys_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_Keys_R.mp3",
+      "filename": "2022-05-11_201903_I don't_Keys_R.mp3",
       "gain": 0.6,
       "pan": 57
     },
     {
       "title": "OH_L",
-      "url": "https://audio.jukehost.co.uk/2JVZ9IlP4Ynir4K0CgDUyI1aWXsaPog1",
-      "file": "2022-05-11_201903_I don't_OH_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_OH_L.mp3",
+      "filename": "2022-05-11_201903_I don't_OH_L.mp3",
       "gain": 0.5,
       "pan": -90
     },
     {
       "title": "OH_R",
-      "url": "https://audio.jukehost.co.uk/BFAuaypOaiEG242JQxSp7yDg5iMGm4H5",
-      "file": "2022-05-11_201903_I don't_OH_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_OH_R.mp3",
+      "filename": "2022-05-11_201903_I don't_OH_R.mp3",
       "gain": 0.5,
       "pan": 90
     },
     {
       "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/7Zz3JUkL2FibmgvWPi5BXPGRARDR5YSn",
-      "file": "2022-05-11_201903_I don't_Sax.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_Sax.mp3",
+      "filename": "2022-05-11_201903_I don't_Sax.mp3",
       "gain": 0.9,
       "pan": -35
     },
     {
       "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/51eOddqLkAviSbZkUGATKOhpbs0OJ0lJ",
-      "file": "2022-05-11_201903_I don't_Trb.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_Trb.mp3",
+      "filename": "2022-05-11_201903_I don't_Trb.mp3",
       "gain": 1,
       "pan": -61
     },
     {
       "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/qpyy3BojlXffZ4b9TUuuXPIQrSOXvGCh",
-      "file": "2022-05-11_201903_I don't_Trpt.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_Trpt.mp3",
+      "filename": "2022-05-11_201903_I don't_Trpt.mp3",
       "gain": 0.9,
       "pan": -18
     },
     {
       "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/Wkef49PBzH0NQ1TAa5lgwJfaZmoe42Ge",
-      "file": "2022-05-11_201903_I don't_Vox1.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_Vox1.mp3",
+      "filename": "2022-05-11_201903_I don't_Vox1.mp3",
       "gain": 0,
       "pan": 0
     },
     {
       "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/pCXexJjlqo3HsRSEcxBoWC0IH23ber68",
-      "file": "2022-05-11_201903_I don't_Vox3.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-05-11T20:19:19.000Z/2022-05-11_201903_I don't_Vox3.mp3",
+      "filename": "2022-05-11_201903_I don't_Vox3.mp3",
       "gain": 1.5,
       "pan": 32
     }
   ],
   "time": {
-    "$date": "2022-05-11T20:19:19Z"
+    "$date": "2022-05-11T18:19:19Z"
   },
   "title": "I don't",
   "type": "Rehearsal"
@@ -1383,201 +1044,98 @@
   "tracks": [
     {
       "title": "Aux_L",
-      "url": "https://audio.jukehost.co.uk/OH3fa63fgeAdyDXOm2zcskDjRfPATPqq",
-      "file": "2022-05-11_205328_Permanent_Aux_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_Aux_L.mp3",
+      "filename": "2022-05-11_205328_Permanent_Aux_L.mp3",
       "gain": 0.5,
       "pan": -90
     },
     {
       "title": "Aux_R",
-      "url": "https://audio.jukehost.co.uk/9g0q6oxkfaSC4DHy6fMu833Vjz0kaOw1",
-      "file": "2022-05-11_205328_Permanent_Aux_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_Aux_R.mp3",
+      "filename": "2022-05-11_205328_Permanent_Aux_R.mp3",
       "gain": 0.5,
       "pan": 90
     },
     {
       "title": "BDrum",
-      "url": "https://audio.jukehost.co.uk/BsO0LmJ30o24RvqjQV5AMoT9nGHIL7nQ",
-      "file": "2022-05-11_205328_Permanent_BDrum.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_BDrum.mp3",
+      "filename": "2022-05-11_205328_Permanent_BDrum.mp3",
       "gain": 1.5,
       "pan": 0
     },
     {
       "title": "Git",
-      "url": "https://audio.jukehost.co.uk/RWmOSVyyeYO79iIbhV5Zs2m4uoKFjooF",
-      "file": "2022-05-11_205328_Permanent_Git.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_Git.mp3",
+      "filename": "2022-05-11_205328_Permanent_Git.mp3",
       "gain": 1,
       "pan": 29
     },
     {
       "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/em3MeIa5ZKzJAkuV2xKr9MFVgUTqnmJB",
-      "file": "2022-05-11_205328_Permanent_Keys_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_Keys_L.mp3",
+      "filename": "2022-05-11_205328_Permanent_Keys_L.mp3",
       "gain": 0.7,
       "pan": 29
     },
     {
       "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/dc7zMbmr7UZHPCk88thIzSCUo3qM4rnX",
-      "file": "2022-05-11_205328_Permanent_Keys_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_Keys_R.mp3",
+      "filename": "2022-05-11_205328_Permanent_Keys_R.mp3",
       "gain": 0.7,
       "pan": 57
     },
     {
       "title": "OH_L",
-      "url": "https://audio.jukehost.co.uk/IzqjLcQlTDPSL68S9dTEnlDj9kcph9ZG",
-      "file": "2022-05-11_205328_Permanent_OH_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_OH_L.mp3",
+      "filename": "2022-05-11_205328_Permanent_OH_L.mp3",
       "gain": 0.5,
       "pan": -90
     },
     {
       "title": "OH_R",
-      "url": "https://audio.jukehost.co.uk/EeM8JfQfjb8XYJST9lSCYyLVeQFFEhLV",
-      "file": "2022-05-11_205328_Permanent_OH_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_OH_R.mp3",
+      "filename": "2022-05-11_205328_Permanent_OH_R.mp3",
       "gain": 0.5,
       "pan": 90
     },
     {
       "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/quVDk55vg7ap2ozQf53n3rk3GClEB789",
-      "file": "2022-05-11_205328_Permanent_Sax.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_Sax.mp3",
+      "filename": "2022-05-11_205328_Permanent_Sax.mp3",
       "gain": 0.9,
       "pan": -35
     },
     {
       "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/UapZaZeU2rqtRTTlWtqsFW1J2wvKRKRT",
-      "file": "2022-05-11_205328_Permanent_Trb.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_Trb.mp3",
+      "filename": "2022-05-11_205328_Permanent_Trb.mp3",
       "gain": 1,
       "pan": -61
     },
     {
       "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/yg5nqVMV29X8xJchagK3w1quUKx71pPI",
-      "file": "2022-05-11_205328_Permanent_Trpt.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_Trpt.mp3",
+      "filename": "2022-05-11_205328_Permanent_Trpt.mp3",
       "gain": 0.9,
       "pan": -18
     },
     {
       "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/qgDkcVJIsDC0r75WgNBlJ04MXVYuvjQ0",
-      "file": "2022-05-11_205328_Permanent_Vox1.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_Vox1.mp3",
+      "filename": "2022-05-11_205328_Permanent_Vox1.mp3",
       "gain": 1.5,
       "pan": 0
     },
     {
       "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/JJWnNck23eK1lqpHuFtRUE3E9mJVpYgi",
-      "file": "2022-05-11_205328_Permanent_Vox3.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-11T20:53:53.000Z/2022-05-11_205328_Permanent_Vox3.mp3",
+      "filename": "2022-05-11_205328_Permanent_Vox3.mp3",
       "gain": 1.2,
       "pan": 32
     }
   ],
   "time": {
-    "$date": "2022-05-11T20:53:53Z"
-  },
-  "title": "Permanent",
-  "type": "Rehearsal"
-},{
-  "_id": {
-    "$oid": "627d4478d9889c6d1ae86b9e"
-  },
-  "name": "2022-05-11_204451_Permanent",
-  "tracks": [
-    {
-      "title": "Aux_L",
-      "url": "https://audio.jukehost.co.uk/FF1Cr0l7FPgM17OH6EOIeaYRTNibts0O",
-      "file": "2022-05-11_204451_Permanent_Aux_L.mp3",
-      "gain": 0.30000001192092896,
-      "pan": -90
-    },
-    {
-      "title": "Aux_R",
-      "url": "https://audio.jukehost.co.uk/01pp2SeXp0zMKJmPCet8SfI4VjNCt9pb",
-      "file": "2022-05-11_204451_Permanent_Aux_R.mp3",
-      "gain": 0.30000001192092896,
-      "pan": 90
-    },
-    {
-      "title": "BDrum",
-      "url": "https://audio.jukehost.co.uk/KOPshTpPbkJbiNn2ujafCKjG0u0zu4ln",
-      "file": "2022-05-11_204451_Permanent_BDrum.mp3",
-      "gain": 1.5,
-      "pan": 0
-    },
-    {
-      "title": "Git",
-      "url": "https://audio.jukehost.co.uk/LQxyaf2pAQsnp4T5shrSk697mrjDKcia",
-      "file": "2022-05-11_204451_Permanent_Git.mp3",
-      "gain": 0.6000000238418579,
-      "pan": 29
-    },
-    {
-      "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/ol8jBZnvZi0GTCqoUUrExnZ4icqXXESf",
-      "file": "2022-05-11_204451_Permanent_Keys_L.mp3",
-      "gain": 0.7,
-      "pan": 29
-    },
-    {
-      "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/Dz3LqJ7LNLB4JSC18vjC3vTCFa47aRhs",
-      "file": "2022-05-11_204451_Permanent_Keys_R.mp3",
-      "gain": 0.7,
-      "pan": 57
-    },
-    {
-      "title": "OH_L",
-      "url": "https://audio.jukehost.co.uk/OplTeetvc1t4hBw3yBZ6H2urxyjGnRDU",
-      "file": "2022-05-11_204451_Permanent_OH_L.mp3",
-      "gain": 0.5,
-      "pan": -90
-    },
-    {
-      "title": "OH_R",
-      "url": "https://audio.jukehost.co.uk/m1YZXdZwqmD0hbLMWBIYUxtV7Z7UuMkq",
-      "file": "2022-05-11_204451_Permanent_OH_R.mp3",
-      "gain": 0.5,
-      "pan": 89
-    },
-    {
-      "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/1zRhcKxTdUr1p1DrFtFBMyUYq6hQ8n6q",
-      "file": "2022-05-11_204451_Permanent_Sax.mp3",
-      "gain": 0.8999999761581421,
-      "pan": -35
-    },
-    {
-      "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/CeuAYnsnLgsr1dREh64ilkSd42DpztnE",
-      "file": "2022-05-11_204451_Permanent_Trb.mp3",
-      "gain": 1,
-      "pan": -61
-    },
-    {
-      "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/u1QPKB9BmuWgAuuDSojel54j2QExh0km",
-      "file": "2022-05-11_204451_Permanent_Trpt.mp3",
-      "gain": 0.8999999761581421,
-      "pan": -18
-    },
-    {
-      "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/adwtP0VZuz9GnMgNNffEuw21GFzxry1T",
-      "file": "2022-05-11_204451_Permanent_Vox1.mp3",
-      "gain": 1.5,
-      "pan": 0
-    },
-    {
-      "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/yff8FRghOsWfttzyUqpe0kywKYstYzCN",
-      "file": "2022-05-11_204451_Permanent_Vox3.mp3",
-      "gain": 0,
-      "pan": 32
-    }
-  ],
-  "time": {
-    "$date": "2022-05-11T20:44:44Z"
+    "$date": "2022-05-11T18:53:53Z"
   },
   "title": "Permanent",
   "type": "Rehearsal"
@@ -1589,169 +1147,462 @@
   "tracks": [
     {
       "title": "Aux_L",
-      "url": "https://audio.jukehost.co.uk/nFOblbxSsY36gdZb41I2kzXaKCFJLhs7",
-      "file": "2022-05-11_214642_Dive_Aux_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_Aux_L.mp3",
+      "filename": "2022-05-11_214642_Dive_Aux_L.mp3",
       "gain": 0.5,
       "pan": -90
     },
     {
       "title": "Aux_R",
-      "url": "https://audio.jukehost.co.uk/HPkJn332XcE0tPAlM4sDA2v7t2Hovugv",
-      "file": "2022-05-11_214642_Dive_Aux_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_Aux_R.mp3",
+      "filename": "2022-05-11_214642_Dive_Aux_R.mp3",
       "gain": 0.5,
       "pan": 90
     },
     {
       "title": "BDrum",
-      "url": "https://audio.jukehost.co.uk/Sb9oCGFCaJX9aKDEzDewpkE4NiHiSqte",
-      "file": "2022-05-11_214642_Dive_BDrum.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_BDrum.mp3",
+      "filename": "2022-05-11_214642_Dive_BDrum.mp3",
       "gain": 1.5,
       "pan": 0
     },
     {
       "title": "Git",
-      "url": "https://audio.jukehost.co.uk/xLrfeGQ9HdjmhSsQFt2ryHHh60eIztbo",
-      "file": "2022-05-11_214642_Dive_Git.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_Git.mp3",
+      "filename": "2022-05-11_214642_Dive_Git.mp3",
       "gain": 1,
       "pan": 29
     },
     {
       "title": "Keys_L",
-      "url": "https://audio.jukehost.co.uk/IQRH9fyIAGChtGTbnecXaD61Eyf00Ubh",
-      "file": "2022-05-11_214642_Dive_Keys_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_Keys_L.mp3",
+      "filename": "2022-05-11_214642_Dive_Keys_L.mp3",
       "gain": 0.8,
       "pan": 29
     },
     {
       "title": "Keys_R",
-      "url": "https://audio.jukehost.co.uk/eT89Kv4DmtAJ978GJ1K8PyoZ8GWcyuC7",
-      "file": "2022-05-11_214642_Dive_Keys_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_Keys_R.mp3",
+      "filename": "2022-05-11_214642_Dive_Keys_R.mp3",
       "gain": 0.8,
       "pan": 57
     },
     {
       "title": "OH_L",
-      "url": "https://audio.jukehost.co.uk/lcVXtcmizSzTTyJDrcLhoozFuUyjXUnl",
-      "file": "2022-05-11_214642_Dive_OH_L.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_OH_L.mp3",
+      "filename": "2022-05-11_214642_Dive_OH_L.mp3",
       "gain": 0.5,
       "pan": -90
     },
     {
       "title": "OH_R",
-      "url": "https://audio.jukehost.co.uk/U4DaxquEQaCICnXAhsSYRNs8OyLeHWd7",
-      "file": "2022-05-11_214642_Dive_OH_R.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_OH_R.mp3",
+      "filename": "2022-05-11_214642_Dive_OH_R.mp3",
       "gain": 0.5,
       "pan": 90
     },
     {
       "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/OViolU7gcaZD8eHroIVgIqYsMSFH3rzQ",
-      "file": "2022-05-11_214642_Dive_Sax.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_Sax.mp3",
+      "filename": "2022-05-11_214642_Dive_Sax.mp3",
       "gain": 0.9,
       "pan": -35
     },
     {
       "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/ZhrUtxZ0FNSisGbpRmS9v0gSmnXFxsNn",
-      "file": "2022-05-11_214642_Dive_Trb.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_Trb.mp3",
+      "filename": "2022-05-11_214642_Dive_Trb.mp3",
       "gain": 1,
       "pan": -61
     },
     {
       "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/JRtQk1GUzuebXizcRisClAp68TUO632q",
-      "file": "2022-05-11_214642_Dive_Trpt.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_Trpt.mp3",
+      "filename": "2022-05-11_214642_Dive_Trpt.mp3",
       "gain": 0.9,
       "pan": -18
     },
     {
       "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/2QwXDQtAzFS6RCZLhqHdjNxq7X54U0NO",
-      "file": "2022-05-11_214642_Dive_Vox1.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_Vox1.mp3",
+      "filename": "2022-05-11_214642_Dive_Vox1.mp3",
       "gain": 1.5,
       "pan": 0
     },
     {
       "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/GvK8BKiIMbtVmj4K9NjiOwKETb5goDJU",
-      "file": "2022-05-11_214642_Dive_Vox3.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-05-11T21:46:46.000Z/2022-05-11_214642_Dive_Vox3.mp3",
+      "filename": "2022-05-11_214642_Dive_Vox3.mp3",
       "gain": 1.2,
       "pan": 32
     }
   ],
   "time": {
-    "$date": "2022-05-11T21:46:46Z"
+    "$date": "2022-05-11T19:46:46Z"
   },
   "title": "Dive",
   "type": "Rehearsal"
 },{
   "_id": {
-    "$oid": "6298db192b12feb905d3276c"
+    "$oid": "625193bfa3e88cc69ac1bd11"
   },
-  "name": "2022-06-01_210325_I don't",
+  "name": "2022-04-02_000000Digital_I don't",
   "tracks": [
     {
-      "title": "Aux",
-      "url": "https://audio.jukehost.co.uk/erw3iQiXVLthEzyw98K60EyS5XxJbYh5",
-      "file": "2022-06-01_210325_I don't_Aux.mp3",
-      "gain": 0.8,
-      "pan": 0
+      "title": "Bass",
+      "gain": 0.5,
+      "pan": 0,
+      "filename": "2022-04-02_000000Digital_I don't_Bass.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-01T22:00:00.000Z/2022-04-02_000000Digital_I don't_Bass.mp3"
     },
     {
       "title": "Drums",
-      "url": "https://audio.jukehost.co.uk/Te6doRzRyQzYeWqTbew9Wb02ID7AiU43",
-      "file": "2022-06-01_210325_I don't_Drums.mp3",
-      "gain": 0.8,
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-01T22:00:00.000Z/2022-04-02_000000Digital_I don't_Drums.mp3",
+      "filename": "2022-04-02_000000Digital_I don't_Drums.mp3",
+      "gain": 0.5,
       "pan": 0
     },
     {
       "title": "Git",
-      "url": "https://audio.jukehost.co.uk/XNz3JcdqVeDnVroFfytLi2wmibqwd2MF",
-      "file": "2022-06-01_210325_I don't_Git.mp3",
-      "gain": 1.2,
-      "pan": 29
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-01T22:00:00.000Z/2022-04-02_000000Digital_I don't_Git.mp3",
+      "filename": "2022-04-02_000000Digital_I don't_Git.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Keys",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-01T22:00:00.000Z/2022-04-02_000000Digital_I don't_Keys.mp3",
+      "filename": "2022-04-02_000000Digital_I don't_Keys.mp3",
+      "gain": 0.5,
+      "pan": 0
     },
     {
       "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/OobisaaUIWYYnVP2ofcGCDTpNM2J8tOp",
-      "file": "2022-06-01_210325_I don't_Sax.mp3",
-      "gain": 0.9,
-      "pan": -35
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-01T22:00:00.000Z/2022-04-02_000000Digital_I don't_Sax.mp3",
+      "filename": "2022-04-02_000000Digital_I don't_Sax.mp3",
+      "gain": 0.4,
+      "pan": 0
     },
     {
-      "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/TduJ1UN6rIeG8gelSrE9NLaN0y5A5NDg",
-      "file": "2022-06-01_210325_I don't_Trb.mp3",
-      "gain": 1,
-      "pan": -61
+      "title": "Trbn",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-01T22:00:00.000Z/2022-04-02_000000Digital_I don't_Trbn.mp3",
+      "filename": "2022-04-02_000000Digital_I don't_Trbn.mp3",
+      "gain": 0.5,
+      "pan": 0
     },
     {
       "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/oPcdQdAilusdjDEH3tkLF24BTd0T1kCQ",
-      "file": "2022-06-01_210325_I don't_Trpt.mp3",
-      "gain": 0.9,
-      "pan": -18
-    },
-    {
-      "title": "Vox2",
-      "url": "https://audio.jukehost.co.uk/140kVAMEgYbMH4nuwXL61Gk3C86Oh7MB",
-      "file": "2022-06-01_210325_I don't_Vox2.mp3",
-      "gain": 1.2,
-      "pan": -12
-    },
-    {
-      "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/g2DvjMzybugotPP7ywa0gGwUiIUeRPO7",
-      "file": "2022-06-01_210325_I don't_Vox3.mp3",
-      "gain": 1.2,
-      "pan": 12
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-04-01T22:00:00.000Z/2022-04-02_000000Digital_I don't_Trpt.mp3",
+      "filename": "2022-04-02_000000Digital_I don't_Trpt.mp3",
+      "gain": 0.5,
+      "pan": 0
     }
   ],
   "time": {
-    "$date": "2022-06-01T21:03:03Z"
+    "$date": "2022-04-01T20:00:00Z"
   },
   "title": "I don't",
-  "type": "Rehearsal"
+  "type": "Digital"
+},{
+  "_id": {
+    "$oid": "625a7306563481bf6116e50e"
+  },
+  "name": "2020-01-01_000000Split_Showgeschäft",
+  "tracks": [
+    {
+      "title": "bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Showgeschäft_bass.mp3",
+      "filename": "2020-01-01_000000Split_Showgeschäft_bass.mp3"
+    },
+    {
+      "title": "drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Showgeschäft_drums.mp3",
+      "filename": "2020-01-01_000000Split_Showgeschäft_drums.mp3"
+    },
+    {
+      "title": "other",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Showgeschäft_other.mp3",
+      "filename": "2020-01-01_000000Split_Showgeschäft_other.mp3"
+    },
+    {
+      "title": "piano",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Showgeschäft_piano.mp3",
+      "filename": "2020-01-01_000000Split_Showgeschäft_piano.mp3"
+    },
+    {
+      "title": "vocals",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Showgeschäft/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Showgeschäft_vocals.mp3",
+      "filename": "2020-01-01_000000Split_Showgeschäft_vocals.mp3"
+    }
+  ],
+  "time": {
+    "$date": "2019-12-31T23:00:00Z"
+  },
+  "title": "Showgeschäft",
+  "type": "Split"
+},{
+  "_id": {
+    "$oid": "625a7306563481bf6116e5b4"
+  },
+  "name": "2020-01-01_000000Split_Hanging On",
+  "tracks": [
+    {
+      "title": "bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Hanging On/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Hanging On_bass.mp3",
+      "filename": "2020-01-01_000000Split_Hanging On_bass.mp3"
+    },
+    {
+      "title": "drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Hanging On/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Hanging On_drums.mp3",
+      "filename": "2020-01-01_000000Split_Hanging On_drums.mp3"
+    },
+    {
+      "title": "other",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Hanging On/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Hanging On_other.mp3",
+      "filename": "2020-01-01_000000Split_Hanging On_other.mp3"
+    },
+    {
+      "title": "piano",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Hanging On/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Hanging On_piano.mp3",
+      "filename": "2020-01-01_000000Split_Hanging On_piano.mp3"
+    },
+    {
+      "title": "vocals",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Hanging On/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Hanging On_vocals.mp3",
+      "filename": "2020-01-01_000000Split_Hanging On_vocals.mp3"
+    }
+  ],
+  "time": {
+    "$date": "2019-12-31T23:00:00Z"
+  },
+  "title": "Hanging On",
+  "type": "Split"
+},{
+  "_id": {
+    "$oid": "625a7307563481bf6116e685"
+  },
+  "name": "2020-01-01_000000Split_Lands End",
+  "tracks": [
+    {
+      "title": "bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Lands End/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Lands End_bass.mp3",
+      "filename": "2020-01-01_000000Split_Lands End_bass.mp3"
+    },
+    {
+      "title": "drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Lands End/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Lands End_drums.mp3",
+      "filename": "2020-01-01_000000Split_Lands End_drums.mp3"
+    },
+    {
+      "title": "other",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Lands End/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Lands End_other.mp3",
+      "filename": "2020-01-01_000000Split_Lands End_other.mp3"
+    },
+    {
+      "title": "piano",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Lands End/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Lands End_piano.mp3",
+      "filename": "2020-01-01_000000Split_Lands End_piano.mp3"
+    },
+    {
+      "title": "vocals",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Lands End/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Lands End_vocals.mp3",
+      "filename": "2020-01-01_000000Split_Lands End_vocals.mp3"
+    }
+  ],
+  "time": {
+    "$date": "2019-12-31T23:00:00Z"
+  },
+  "title": "Lands End",
+  "type": "Split"
+},{
+  "_id": {
+    "$oid": "625a7307563481bf6116e79d"
+  },
+  "name": "2020-01-01_000000Split_Good Time",
+  "tracks": [
+    {
+      "title": " drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Good Time/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Good Time_ drums.mp3",
+      "filename": "2020-01-01_000000Split_Good Time_ drums.mp3",
+      "gain": 1.5,
+      "pan": 0
+    },
+    {
+      "title": "bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Good Time/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Good Time_bass.mp3",
+      "filename": "2020-01-01_000000Split_Good Time_bass.mp3",
+      "gain": 0,
+      "pan": -43
+    },
+    {
+      "title": "other",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Good Time/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Good Time_other.mp3",
+      "filename": "2020-01-01_000000Split_Good Time_other.mp3",
+      "gain": 1.5,
+      "pan": -48
+    },
+    {
+      "title": "piano",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Good Time/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Good Time_piano.mp3",
+      "filename": "2020-01-01_000000Split_Good Time_piano.mp3",
+      "gain": 0,
+      "pan": -52
+    },
+    {
+      "title": "vocals",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Good Time/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Good Time_vocals.mp3",
+      "filename": "2020-01-01_000000Split_Good Time_vocals.mp3",
+      "gain": 1.5,
+      "pan": 0
+    }
+  ],
+  "time": {
+    "$date": "2019-12-31T23:00:00Z"
+  },
+  "title": "Good Time",
+  "type": "Split"
+},{
+  "_id": {
+    "$oid": "625a7306563481bf6116e4c5"
+  },
+  "name": "2020-01-01_000000Split_Told You The First Time",
+  "tracks": [
+    {
+      "title": "bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Told You The First Time/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Told You The First Time_bass.mp3",
+      "filename": "2020-01-01_000000Split_Told You The First Time_bass.mp3"
+    },
+    {
+      "title": "drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Told You The First Time/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Told You The First Time_drums.mp3",
+      "filename": "2020-01-01_000000Split_Told You The First Time_drums.mp3"
+    },
+    {
+      "title": "other",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Told You The First Time/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Told You The First Time_other.mp3",
+      "filename": "2020-01-01_000000Split_Told You The First Time_other.mp3"
+    },
+    {
+      "title": "piano",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Told You The First Time/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Told You The First Time_piano.mp3",
+      "filename": "2020-01-01_000000Split_Told You The First Time_piano.mp3"
+    },
+    {
+      "title": "vocals",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Told You The First Time/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Told You The First Time_vocals.mp3",
+      "filename": "2020-01-01_000000Split_Told You The First Time_vocals.mp3"
+    }
+  ],
+  "time": {
+    "$date": "2019-12-31T23:00:00Z"
+  },
+  "title": "Told You The First Time",
+  "type": "Split"
+},{
+  "_id": {
+    "$oid": "625a7308563481bf6116e8f3"
+  },
+  "name": "2020-01-01_000000Split_Move your Feet",
+  "tracks": [
+    {
+      "title": "bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Move your Feet/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Move your Feet_bass.mp3",
+      "filename": "2020-01-01_000000Split_Move your Feet_bass.mp3"
+    },
+    {
+      "title": "drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Move your Feet/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Move your Feet_drums.mp3",
+      "filename": "2020-01-01_000000Split_Move your Feet_drums.mp3"
+    },
+    {
+      "title": "other",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Move your Feet/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Move your Feet_other.mp3",
+      "filename": "2020-01-01_000000Split_Move your Feet_other.mp3"
+    },
+    {
+      "title": "piano",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Move your Feet/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Move your Feet_piano.mp3",
+      "filename": "2020-01-01_000000Split_Move your Feet_piano.mp3"
+    },
+    {
+      "title": "vocals",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Move your Feet/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Move your Feet_vocals.mp3",
+      "filename": "2020-01-01_000000Split_Move your Feet_vocals.mp3"
+    }
+  ],
+  "time": {
+    "$date": "2019-12-31T23:00:00Z"
+  },
+  "title": "Move your Feet",
+  "type": "Split"
+},{
+  "_id": {
+    "$oid": "626fef4efc6b5f5656d794f5"
+  },
+  "name": "2022-05-02_000000Digital_Permanent",
+  "tracks": [
+    {
+      "title": "Bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-02T00:00:00.000Z/2022-05-02_000000Digital_Permanent_Bass.mp3",
+      "filename": "2022-05-02_000000Digital_Permanent_Bass.mp3",
+      "gain": 0.4,
+      "pan": 0
+    },
+    {
+      "title": "Brass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-02T00:00:00.000Z/2022-05-02_000000Digital_Permanent_Brass.mp3",
+      "filename": "2022-05-02_000000Digital_Permanent_Brass.mp3",
+      "gain": 0.6,
+      "pan": 58
+    },
+    {
+      "title": "Click",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-02T00:00:00.000Z/2022-05-02_000000Digital_Permanent_Click.mp3",
+      "filename": "2022-05-02_000000Digital_Permanent_Click.mp3",
+      "gain": 0,
+      "pan": 0
+    },
+    {
+      "title": "ClickIn",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-02T00:00:00.000Z/2022-05-02_000000Digital_Permanent_ClickIn.mp3",
+      "filename": "2022-05-02_000000Digital_Permanent_ClickIn.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-02T00:00:00.000Z/2022-05-02_000000Digital_Permanent_Drums.mp3",
+      "filename": "2022-05-02_000000Digital_Permanent_Drums.mp3",
+      "gain": 0.5,
+      "pan": 0
+    },
+    {
+      "title": "Git",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-02T00:00:00.000Z/2022-05-02_000000Digital_Permanent_Git.mp3",
+      "filename": "2022-05-02_000000Digital_Permanent_Git.mp3",
+      "gain": 0.5,
+      "pan": -20
+    },
+    {
+      "title": "Keys",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-02T00:00:00.000Z/2022-05-02_000000Digital_Permanent_Keys.mp3",
+      "filename": "2022-05-02_000000Digital_Permanent_Keys.mp3",
+      "gain": 0.5,
+      "pan": -36
+    },
+    {
+      "title": "Vox1",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-05-02T00:00:00.000Z/2022-05-02_000000Digital_Permanent_Vox1.mp3",
+      "filename": "2022-05-02_000000Digital_Permanent_Vox1.mp3",
+      "gain": 0.5,
+      "pan": 0
+    }
+  ],
+  "time": {
+    "$date": "2022-05-01T22:00:00Z"
+  },
+  "title": "Permanent",
+  "type": "Digital"
 },{
   "_id": {
     "$oid": "6298db192b12feb905d3282c"
@@ -1760,139 +1611,438 @@
   "tracks": [
     {
       "title": "Aux",
-      "url": "https://audio.jukehost.co.uk/BRKbvprvmnoyhkW0WT4PXLXprPyNtYsp",
-      "file": "2022-06-01_212444_Permanent_Aux.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-06-01T21:24:24.000Z/2022-06-01_212444_Permanent_Aux.mp3",
+      "filename": "2022-06-01_212444_Permanent_Aux.mp3",
       "gain": 1.5,
       "pan": 0
     },
     {
       "title": "Click",
-      "url": "https://audio.jukehost.co.uk/7ipHLQ9agrYRKCPrmXiABksLmGvAAPPP",
-      "file": "2022-06-01_212444_Permanent_Click.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-06-01T21:24:24.000Z/2022-06-01_212444_Permanent_Click.mp3",
+      "filename": "2022-06-01_212444_Permanent_Click.mp3",
       "gain": 0,
       "pan": 0
     },
     {
       "title": "Git",
-      "url": "https://audio.jukehost.co.uk/2F3zg5gp3t95guhAz1sf8kMDbrdoh2eg",
-      "file": "2022-06-01_212444_Permanent_Git.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-06-01T21:24:24.000Z/2022-06-01_212444_Permanent_Git.mp3",
+      "filename": "2022-06-01_212444_Permanent_Git.mp3",
       "gain": 1.12,
       "pan": 49
     },
     {
       "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/tjG1u9diecCYf1zSSju0U3qSl6VRET1l",
-      "file": "2022-06-01_212444_Permanent_Sax.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-06-01T21:24:24.000Z/2022-06-01_212444_Permanent_Sax.mp3",
+      "filename": "2022-06-01_212444_Permanent_Sax.mp3",
       "gain": 0.7,
       "pan": -35
     },
     {
       "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/Pb14XuZvlQTO13l0DY8wGVlcKqBjoOsI",
-      "file": "2022-06-01_212444_Permanent_Trb.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-06-01T21:24:24.000Z/2022-06-01_212444_Permanent_Trb.mp3",
+      "filename": "2022-06-01_212444_Permanent_Trb.mp3",
       "gain": 0.8,
       "pan": -61
     },
     {
       "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/SMBfQLXGr7ph5qS7jF3wJBBmj7p6JC7q",
-      "file": "2022-06-01_212444_Permanent_Trpt.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-06-01T21:24:24.000Z/2022-06-01_212444_Permanent_Trpt.mp3",
+      "filename": "2022-06-01_212444_Permanent_Trpt.mp3",
       "gain": 0.7,
       "pan": -18
     },
     {
       "title": "Vox1",
-      "url": "https://audio.jukehost.co.uk/U6AMUy2Cpj1bzbxLeQ5vENS7a5rZi8KX",
-      "file": "2022-06-01_212444_Permanent_Vox1.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-06-01T21:24:24.000Z/2022-06-01_212444_Permanent_Vox1.mp3",
+      "filename": "2022-06-01_212444_Permanent_Vox1.mp3",
       "gain": 1.5,
       "pan": 0
     },
     {
       "title": "Vox2",
-      "url": "https://audio.jukehost.co.uk/y2T2P7TvV8CatZvxUTlKIpgI4YgrN8z0",
-      "file": "2022-06-01_212444_Permanent_Vox2.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-06-01T21:24:24.000Z/2022-06-01_212444_Permanent_Vox2.mp3",
+      "filename": "2022-06-01_212444_Permanent_Vox2.mp3",
       "gain": 1,
       "pan": 46
     },
     {
       "title": "Vox3",
-      "url": "https://audio.jukehost.co.uk/heqc3rv3M90kSw6a8tF9Pl3j64f0Y3Et",
-      "file": "2022-06-01_212444_Permanent_Vox3.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Permanent/2022-06-01T21:24:24.000Z/2022-06-01_212444_Permanent_Vox3.mp3",
+      "filename": "2022-06-01_212444_Permanent_Vox3.mp3",
       "gain": 1,
       "pan": 10
     }
   ],
   "time": {
-    "$date": "2022-06-01T21:24:24Z"
+    "$date": "2022-06-01T19:24:24Z"
   },
   "title": "Permanent",
   "type": "Rehearsal"
 },{
   "_id": {
-    "$oid": "62a0d4e47f1107aee14a3881"
+    "$oid": "625193c0a3e88cc69ac1bf11"
   },
-  "name": "2022-05-29_000000Digital_I don't",
+  "name": "2022-04-06_214239_Dive",
+  "tracks": [
+    {
+      "title": "Aux_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-04-06T19:42:42.000Z/2022-04-06_214239_Dive_Aux_L.mp3",
+      "filename": "2022-04-06_214239_Dive_Aux_L.mp3",
+      "gain": 0.5,
+      "pan": -90
+    },
+    {
+      "title": "Aux_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-04-06T19:42:42.000Z/2022-04-06_214239_Dive_Aux_R.mp3",
+      "filename": "2022-04-06_214239_Dive_Aux_R.mp3",
+      "gain": 0.5,
+      "pan": 90
+    },
+    {
+      "title": "Keys_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-04-06T19:42:42.000Z/2022-04-06_214239_Dive_Keys_L.mp3",
+      "filename": "2022-04-06_214239_Dive_Keys_L.mp3",
+      "gain": 0.6,
+      "pan": 29
+    },
+    {
+      "title": "Keys_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-04-06T19:42:42.000Z/2022-04-06_214239_Dive_Keys_R.mp3",
+      "filename": "2022-04-06_214239_Dive_Keys_R.mp3",
+      "gain": 0.6,
+      "pan": 57
+    },
+    {
+      "title": "Sax",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-04-06T19:42:42.000Z/2022-04-06_214239_Dive_Sax.mp3",
+      "filename": "2022-04-06_214239_Dive_Sax.mp3",
+      "gain": 0.9,
+      "pan": -35
+    },
+    {
+      "title": "Trb",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-04-06T19:42:42.000Z/2022-04-06_214239_Dive_Trb.mp3",
+      "filename": "2022-04-06_214239_Dive_Trb.mp3",
+      "gain": 1,
+      "pan": -61
+    },
+    {
+      "title": "Trpt",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-04-06T19:42:42.000Z/2022-04-06_214239_Dive_Trpt.mp3",
+      "filename": "2022-04-06_214239_Dive_Trpt.mp3",
+      "gain": 0.7,
+      "pan": -18
+    },
+    {
+      "title": "Vox1",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-04-06T19:42:42.000Z/2022-04-06_214239_Dive_Vox1.mp3",
+      "filename": "2022-04-06_214239_Dive_Vox1.mp3",
+      "gain": 1.5,
+      "pan": 0
+    },
+    {
+      "title": "Vox3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Dive/2022-04-06T19:42:42.000Z/2022-04-06_214239_Dive_Vox3.mp3",
+      "filename": "2022-04-06_214239_Dive_Vox3.mp3",
+      "gain": 1.2,
+      "pan": 32
+    }
+  ],
+  "time": {
+    "$date": "2022-04-06T17:42:42Z"
+  },
+  "title": "Dive",
+  "type": "Rehearsal"
+},{
+  "_id": {
+    "$oid": "625a7307563481bf6116e5d6"
+  },
+  "name": "2020-01-01_000000Split_Every Road",
+  "tracks": [
+    {
+      "title": "bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Every Road_bass.mp3",
+      "filename": "2020-01-01_000000Split_Every Road_bass.mp3"
+    },
+    {
+      "title": "drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Every Road_drums.mp3",
+      "filename": "2020-01-01_000000Split_Every Road_drums.mp3"
+    },
+    {
+      "title": "other",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Every Road_other.mp3",
+      "filename": "2020-01-01_000000Split_Every Road_other.mp3"
+    },
+    {
+      "title": "piano",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Every Road_piano.mp3",
+      "filename": "2020-01-01_000000Split_Every Road_piano.mp3"
+    },
+    {
+      "title": "vocals",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/Every Road/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_Every Road_vocals.mp3",
+      "filename": "2020-01-01_000000Split_Every Road_vocals.mp3"
+    }
+  ],
+  "time": {
+    "$date": "2019-12-31T23:00:00Z"
+  },
+  "title": "Every Road",
+  "type": "Split"
+},{
+  "_id": {
+    "$oid": "625a7307563481bf6116e60f"
+  },
+  "name": "2020-01-01_000000Split_I'll be your Doctor",
+  "tracks": [
+    {
+      "title": "bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I'll be your Doctor/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_I'll be your Doctor_bass.mp3",
+      "filename": "2020-01-01_000000Split_I'll be your Doctor_bass.mp3"
+    },
+    {
+      "title": "drums",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I'll be your Doctor/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_I'll be your Doctor_drums.mp3",
+      "filename": "2020-01-01_000000Split_I'll be your Doctor_drums.mp3"
+    },
+    {
+      "title": "other",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I'll be your Doctor/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_I'll be your Doctor_other.mp3",
+      "filename": "2020-01-01_000000Split_I'll be your Doctor_other.mp3"
+    },
+    {
+      "title": "piano",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I'll be your Doctor/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_I'll be your Doctor_piano.mp3",
+      "filename": "2020-01-01_000000Split_I'll be your Doctor_piano.mp3"
+    },
+    {
+      "title": "vocals",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I'll be your Doctor/2020-01-01T00:00:00.000Z/2020-01-01_000000Split_I'll be your Doctor_vocals.mp3",
+      "filename": "2020-01-01_000000Split_I'll be your Doctor_vocals.mp3"
+    }
+  ],
+  "time": {
+    "$date": "2019-12-31T23:00:00Z"
+  },
+  "title": "I'll be your Doctor",
+  "type": "Split"
+},{
+  "_id": {
+    "$oid": "627922cc799e1447ee9bd89c"
+  },
+  "name": "2022-05-09_000000Digital_You Up To",
   "tracks": [
     {
       "title": "Bass",
-      "url": "https://audio.jukehost.co.uk/cwsSHSc2DBWKEv0w5UzukUG6GUd8Imqq",
-      "file": "2022-05-29_000000Digital_I don't_Bass.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/You Up To/2022-05-09T00:00:00.000Z/2022-05-09_000000Digital_You Up To_Bass.mp3",
+      "filename": "2022-05-09_000000Digital_You Up To_Bass.mp3",
+      "gain": 0.4,
+      "pan": 0
+    },
+    {
+      "title": "Brass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/You Up To/2022-05-09T00:00:00.000Z/2022-05-09_000000Digital_You Up To_Brass.mp3",
+      "filename": "2022-05-09_000000Digital_You Up To_Brass.mp3",
+      "gain": 0.6,
+      "pan": 58
+    },
+    {
+      "title": "Click",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/You Up To/2022-05-09T00:00:00.000Z/2022-05-09_000000Digital_You Up To_Click.mp3",
+      "filename": "2022-05-09_000000Digital_You Up To_Click.mp3",
+      "gain": 0,
+      "pan": 0
+    },
+    {
+      "title": "ClickIn",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/You Up To/2022-05-09T00:00:00.000Z/2022-05-09_000000Digital_You Up To_ClickIn.mp3",
+      "filename": "2022-05-09_000000Digital_You Up To_ClickIn.mp3",
       "gain": 0.5,
       "pan": 0
     },
     {
       "title": "Drums",
-      "url": "https://audio.jukehost.co.uk/jtb0W5KNjHhIg4vQmZTmjWfJwajpf2Ro",
-      "file": "2022-05-29_000000Digital_I don't_Drums.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/You Up To/2022-05-09T00:00:00.000Z/2022-05-09_000000Digital_You Up To_Drums.mp3",
+      "filename": "2022-05-09_000000Digital_You Up To_Drums.mp3",
       "gain": 0.5,
       "pan": 0
     },
     {
       "title": "Git",
-      "url": "https://audio.jukehost.co.uk/ZaGAUjERCpt2LroRNbqOrd0Av3FSqqA8",
-      "file": "2022-05-29_000000Digital_I don't_Git.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/You Up To/2022-05-09T00:00:00.000Z/2022-05-09_000000Digital_You Up To_Git.mp3",
+      "filename": "2022-05-09_000000Digital_You Up To_Git.mp3",
       "gain": 0.5,
-      "pan": 0
+      "pan": -20
     },
     {
       "title": "Keys",
-      "url": "https://audio.jukehost.co.uk/12tgnqBa5ZRpf1eY33khpO5TfchnCxHv",
-      "file": "2022-05-29_000000Digital_I don't_Keys.mp3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/You Up To/2022-05-09T00:00:00.000Z/2022-05-09_000000Digital_You Up To_Keys.mp3",
+      "filename": "2022-05-09_000000Digital_You Up To_Keys.mp3",
       "gain": 0.5,
-      "pan": 0
+      "pan": -36
     },
     {
-      "title": "Sax",
-      "url": "https://audio.jukehost.co.uk/2ol3QtSPNw8aYdVPEEOv5LMdyTCYMkpp",
-      "file": "2022-05-29_000000Digital_I don't_Sax.mp3",
-      "gain": 0.4,
-      "pan": 0
-    },
-    {
-      "title": "Trb",
-      "url": "https://audio.jukehost.co.uk/yx3sW082CrdfjWXSTjew8zwwHauWK5uD",
-      "file": "2022-05-29_000000Digital_I don't_Trb.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Trpt",
-      "url": "https://audio.jukehost.co.uk/7MeLD1iMmlXGQWlrNUBylhptug8L8Wy1",
-      "file": "2022-05-29_000000Digital_I don't_Trpt.mp3",
-      "gain": 0.5,
-      "pan": 0
-    },
-    {
-      "title": "Vox",
-      "url": "https://audio.jukehost.co.uk/yPSlx2JwqykT25PMVA4AHyUtqJthRMDR",
-      "file": "2022-05-29_000000Digital_I don't_Vox.mp3",
-      "gain": 0.6,
+      "title": "Vox1",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/You Up To/2022-05-09T00:00:00.000Z/2022-05-09_000000Digital_You Up To_Vox1.mp3",
+      "filename": "2022-05-09_000000Digital_You Up To_Vox1.mp3",
+      "gain": 0.3,
       "pan": 0
     }
   ],
   "time": {
-    "$date": "2022-05-29T00:00:00Z"
+    "$date": "2022-05-08T22:00:00Z"
   },
-  "title": "I don't",
+  "title": "You Up To",
   "type": "Digital"
+},{
+  "_id": {
+    "$oid": "62bdc7b17abbd0e5a7348f87"
+  },
+  "time": {
+    "$date": "2022-06-29T19:55:00Z"
+  },
+  "name": "2022-Jun-29_215553_When I'm Gone_Sax.mp3",
+  "title": "When I'm Gone",
+  "tracks": [
+    {
+      "title": "Aux_L",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/When I'm Gone/2022-06-29 21:55:00/2022-Jun-29_215553_When I'm Gone_Aux_L.mp3",
+      "filename": "2022-Jun-29_215553_When I'm Gone_Aux_L.mp3",
+      "gain": 0.5,
+      "pan": -90
+    },
+    {
+      "title": "Aux_R",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/When I'm Gone/2022-06-29 21:55:00/2022-Jun-29_215553_When I'm Gone_Aux_R.mp3",
+      "filename": "2022-Jun-29_215553_When I'm Gone_Aux_R.mp3",
+      "gain": "0.5",
+      "pan": 90
+    },
+    {
+      "title": "Bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/When I'm Gone/2022-06-29 21:55:00/2022-Jun-29_215553_When I'm Gone_Bass.mp3",
+      "filename": "2022-Jun-29_215553_When I'm Gone_Bass.mp3",
+      "gain": 1.49,
+      "pan": 0
+    },
+    {
+      "title": "Git",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/When I'm Gone/2022-06-29 21:55:00/2022-Jun-29_215553_When I'm Gone_Git.mp3",
+      "filename": "2022-Jun-29_215553_When I'm Gone_Git.mp3",
+      "gain": "0.8",
+      "pan": 29
+    },
+    {
+      "title": "Sax",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/When I'm Gone/2022-06-29 21:55:00/2022-Jun-29_215553_When I'm Gone_Sax.mp3",
+      "filename": "2022-Jun-29_215553_When I'm Gone_Sax.mp3",
+      "gain": 0.9,
+      "pan": -35
+    },
+    {
+      "title": "Trb",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/When I'm Gone/2022-06-29 21:55:00/2022-Jun-29_215553_When I'm Gone_Trb.mp3",
+      "filename": "2022-Jun-29_215553_When I'm Gone_Trb.mp3",
+      "gain": 1,
+      "pan": -61
+    },
+    {
+      "title": "Trpt",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/When I'm Gone/2022-06-29 21:55:00/2022-Jun-29_215553_When I'm Gone_Trpt.mp3",
+      "filename": "2022-Jun-29_215553_When I'm Gone_Trpt.mp3",
+      "gain": "1.5",
+      "pan": -18
+    },
+    {
+      "title": "Vox1",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/When I'm Gone/2022-06-29 21:55:00/2022-Jun-29_215553_When I'm Gone_Vox1.mp3",
+      "filename": "2022-Jun-29_215553_When I'm Gone_Vox1.mp3",
+      "gain": 1.5,
+      "pan": 0
+    },
+    {
+      "title": "Vox2",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/When I'm Gone/2022-06-29 21:55:00/2022-Jun-29_215553_When I'm Gone_Vox2.mp3",
+      "filename": "2022-Jun-29_215553_When I'm Gone_Vox2.mp3",
+      "gain": "0.8",
+      "pan": 17
+    },
+    {
+      "title": "Vox3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/When I'm Gone/2022-06-29 21:55:00/2022-Jun-29_215553_When I'm Gone_Vox3.mp3",
+      "filename": "2022-Jun-29_215553_When I'm Gone_Vox3.mp3",
+      "gain": "0.6",
+      "pan": 32
+    }
+  ],
+  "type": "Rehearsal"
+},{
+  "_id": {
+    "$oid": "62bdc8737abbd0e5a737175c"
+  },
+  "time": {
+    "$date": "2022-06-29T19:14:00Z"
+  },
+  "name": "2022-Jun-29_211423_I don't_Trb.mp3",
+  "title": "I don't",
+  "tracks": [
+    {
+      "title": "Bass",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-29 21:14:00/2022-Jun-29_211423_I don't_Bass.mp3",
+      "filename": "2022-Jun-29_211423_I don't_Bass.mp3",
+      "gain": "1.5",
+      "pan": 0
+    },
+    {
+      "title": "Git",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-29 21:14:00/2022-Jun-29_211423_I don't_Git.mp3",
+      "filename": "2022-Jun-29_211423_I don't_Git.mp3",
+      "gain": "0.9",
+      "pan": 29
+    },
+    {
+      "title": "Sax",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-29 21:14:00/2022-Jun-29_211423_I don't_Sax.mp3",
+      "filename": "2022-Jun-29_211423_I don't_Sax.mp3",
+      "gain": "0.6",
+      "pan": -35
+    },
+    {
+      "title": "Trb",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-29 21:14:00/2022-Jun-29_211423_I don't_Trb.mp3",
+      "filename": "2022-Jun-29_211423_I don't_Trb.mp3",
+      "gain": 1,
+      "pan": -61
+    },
+    {
+      "title": "Trpt",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-29 21:14:00/2022-Jun-29_211423_I don't_Trpt.mp3",
+      "filename": "2022-Jun-29_211423_I don't_Trpt.mp3",
+      "gain": "1.5",
+      "pan": -18
+    },
+    {
+      "title": "Vox1",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-29 21:14:00/2022-Jun-29_211423_I don't_Vox1.mp3",
+      "filename": "2022-Jun-29_211423_I don't_Vox1.mp3",
+      "gain": "1.5",
+      "pan": 0
+    },
+    {
+      "title": "Vox2",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-29 21:14:00/2022-Jun-29_211423_I don't_Vox2.mp3",
+      "filename": "2022-Jun-29_211423_I don't_Vox2.mp3",
+      "gain": "1.1",
+      "pan": -12
+    },
+    {
+      "title": "Vox3",
+      "url": "https://semfshow.herokuapp.com/aws/files/recordings/Semfshow/I don't/2022-06-29 21:14:00/2022-Jun-29_211423_I don't_Vox3.mp3",
+      "filename": "2022-Jun-29_211423_I don't_Vox3.mp3",
+      "gain": 1.5,
+      "pan": 12
+    }
+  ],
+  "type": "Rehearsal"
 }]

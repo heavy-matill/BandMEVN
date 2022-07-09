@@ -52,7 +52,8 @@ recordingRoute.route('/add-recording-by-filename/').post((req, res, next) => {
   req.body.url;
   req.body.file;
 
-  let name = req.body.file.split('_').slice(0, 3).join('_')
+
+  //let name = req.body.file.split('_').slice(0, 3).join('_')
 
   let date = req.body.file.split('_')[0]
   let hours_type = req.body.file.split('_')[1]
@@ -64,11 +65,11 @@ recordingRoute.route('/add-recording-by-filename/').post((req, res, next) => {
 
   let time = new Date(`${date} ${hours.slice(0, 2)}:${hours.slice(2, 4)}:${hours.slice(2, 4)}`)
   let query =
-    { name: name }
-  let dataToBeUpdated = { title: channel, url: req.body.url, file: req.body.file }
+    { time: time }
+  let dataToBeUpdated = { title: channel, url: req.body.url, filename: req.body.file }
   //console.log(dataToBeUpdated)
   var bulk = RecordingModel.collection.initializeOrderedBulkOp();
-  bulk.find(query).upsert().updateOne({ "$setOnInsert": { name: name, time: time, title: title, type: type, tracks: [dataToBeUpdated] } });
+  bulk.find(query).upsert().updateOne({ "$setOnInsert": { time: time, title: title, type: type, tracks: [dataToBeUpdated] } });
   bulk.find({ ...query, "tracks.title": { "$ne": channel } }).updateOne({
     "$push": {
       tracks: {//dataToBeUpdated
@@ -99,7 +100,6 @@ recordingRoute.route('/add-recording/').post((req, res, next) => {
   req.body.url;
   req.body.file;
 
-  let name = req.body.file
 
   let title = req.body.title
   let channel = req.body.channel
@@ -107,10 +107,10 @@ recordingRoute.route('/add-recording/').post((req, res, next) => {
   let time = new Date(req.body.date)
   let query =
     { time: time }
-  let dataToBeUpdated = { title: channel, url: req.body.url, file: req.body.file }
+  let dataToBeUpdated = { title: channel, url: req.body.url, filename: req.body.file }
   //console.log(dataToBeUpdated)
   var bulk = RecordingModel.collection.initializeOrderedBulkOp();
-  bulk.find(query).upsert().updateOne({ "$setOnInsert": { name: name, time: time, title: title, type: req.body.type, tracks: [dataToBeUpdated] } });
+  bulk.find(query).upsert().updateOne({ "$setOnInsert": { time: time, title: title, type: req.body.type, tracks: [dataToBeUpdated] } });
   bulk.find({ ...query, "tracks.title": { "$ne": channel } }).updateOne({
     "$push": {
       tracks: {//dataToBeUpdated
