@@ -49,24 +49,20 @@ recordingRoute.route('/edit-recording/:id').post((req, res, next) => {
 
 // Add file
 recordingRoute.route('/add-recording-by-filename/').post((req, res, next) => {
-  req.body.url;
-  req.body.file;
+  //let name = req.body.filename.split('_').slice(0, 3).join('_')
 
-
-  //let name = req.body.file.split('_').slice(0, 3).join('_')
-
-  let date = req.body.file.split('_')[0]
-  let hours_type = req.body.file.split('_')[1]
+  let date = req.body.filename.split('_')[0]
+  let hours_type = req.body.filename.split('_')[1]
   let hours = hours_type.slice(0, 6);
   let type = hours_type.slice(6) || "Rehearsal";
 
-  let title = req.body.file.split('_')[2]
-  let channel = req.body.file.split('_').slice(3).join('_').split('.').slice(0, -1).join('.')
+  let title = req.body.filename.split('_')[2]
+  let channel = req.body.filename.split('_').slice(3).join('_').split('.').slice(0, -1).join('.')
 
   let time = new Date(`${date} ${hours.slice(0, 2)}:${hours.slice(2, 4)}:${hours.slice(2, 4)}`)
   let query =
     { time: time }
-  let dataToBeUpdated = { title: channel, url: req.body.url, filename: req.body.file }
+  let dataToBeUpdated = { title: channel, url: req.body.url, filename: req.body.filename }
   //console.log(dataToBeUpdated)
   var bulk = RecordingModel.collection.initializeOrderedBulkOp();
   bulk.find(query).upsert().updateOne({ "$setOnInsert": { time: time, title: title, type: type, tracks: [dataToBeUpdated] } });
@@ -98,7 +94,7 @@ recordingRoute.route('/add-recording-by-filename/').post((req, res, next) => {
 // Add file
 recordingRoute.route('/add-recording/').post((req, res, next) => {
   req.body.url;
-  req.body.file;
+  req.body.filename;
 
 
   let title = req.body.title
@@ -107,7 +103,7 @@ recordingRoute.route('/add-recording/').post((req, res, next) => {
   let time = new Date(req.body.date)
   let query =
     { time: time }
-  let dataToBeUpdated = { title: channel, url: req.body.url, filename: req.body.file }
+  let dataToBeUpdated = { title: channel, url: req.body.url, filename: req.body.filename }
   //console.log(dataToBeUpdated)
   var bulk = RecordingModel.collection.initializeOrderedBulkOp();
   bulk.find(query).upsert().updateOne({ "$setOnInsert": { time: time, title: title, type: req.body.type, tracks: [dataToBeUpdated] } });
