@@ -10,7 +10,6 @@ let trackSchema = new Schema({
 });
 let recordingSchema = new Schema(
   {
-    //name: { type: String, unique: true },
     time: Date,
     date: {
       type: String,
