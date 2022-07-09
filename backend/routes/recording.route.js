@@ -17,7 +17,7 @@ recordingRoute.route('/create-recording').post((req, res, next) => {
   })
 })
 
-recordingRoute.route('/').get((req, res, next) => {
+recordingRoute.route('').get((req, res, next) => {
   RecordingModel.find((error, data) => {
     if (error) {
       return next(error)
@@ -48,7 +48,7 @@ recordingRoute.route('/edit-recording/:id').post((req, res, next) => {
 })
 
 // Add file
-recordingRoute.route('/add-recording-by-filename/').post((req, res, next) => {
+recordingRoute.route('/add-recording-by-filename').post((req, res, next) => {
   //let name = req.body.filename.split('_').slice(0, 3).join('_')
 
   let date = req.body.filename.split('_')[0]

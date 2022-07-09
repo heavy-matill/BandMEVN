@@ -3,7 +3,7 @@ const awsRoute = express.Router()
 const AWSUtils = require('../utils/AWSUtils')
 
 
-awsRoute.route('/').get((req, res, next) => {
+awsRoute.route('').get((req, res, next) => {
   res.json("this is sub route /aws")
 })
 
