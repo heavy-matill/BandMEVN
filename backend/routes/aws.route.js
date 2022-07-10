@@ -26,8 +26,8 @@ awsRoute.route('/files/:filename(*)').get((req, res, next) => {
       console.log(err);
       res.json()
     } else {
-      // permanent reroute to direkt link
-      res.redirect(301, data)
+      // temporarily reroute to direkt link
+      res.redirect(307, data)
     }
   });
 })
