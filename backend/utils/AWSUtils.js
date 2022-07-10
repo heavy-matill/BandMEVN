@@ -12,7 +12,7 @@ exports = module.exports = {
         var params = {
             Bucket: process.env.S3_BUCKET,
             Key: filename,
-            Expires: 60*60*48
+            Expires: 60*60
         };
         console.log(params)
         s3.getSignedUrl(operation, params, callback);
