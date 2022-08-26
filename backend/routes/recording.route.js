@@ -102,7 +102,7 @@ recordingRoute.route('/add-recording/').post((req, res, next) => {
 
   let time = new Date(req.body.date)
   let query =
-    { time: time }
+    { time: time, title: title }
   let dataToBeUpdated = { title: channel, url: req.body.url, filename: req.body.filename }
   //console.log(dataToBeUpdated)
   var bulk = RecordingModel.collection.initializeOrderedBulkOp();
